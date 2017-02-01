@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d92e0f44-7fed-4b4a-860b-e91da9648b98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestCommaOperator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestInt2Char.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestSwitch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/Chapter5/InitialOrderTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,25 +19,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/DefaultClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OutClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OutClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#150#151#0" expanded="false" />
-                <element signature="e#206#207#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,54 +54,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1330">
               <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#36926#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#7482#7483#0" expanded="false" />
-                <element signature="e#7542#7543#0" expanded="false" />
-                <element signature="e#17339#17340#0" expanded="false" />
-                <element signature="e#17374#17375#0" expanded="false" />
-                <element signature="e#18403#18404#0" expanded="false" />
-                <element signature="e#18434#18435#0" expanded="false" />
-                <element signature="e#18797#18798#0" expanded="false" />
-                <element signature="e#18872#18873#0" expanded="false" />
-                <element signature="e#19283#19284#0" expanded="false" />
-                <element signature="e#19342#19343#0" expanded="false" />
-                <element signature="e#19691#19692#0" expanded="false" />
-                <element signature="e#19725#19726#0" expanded="false" />
-                <element signature="e#19982#19983#0" expanded="false" />
-                <element signature="e#20023#20024#0" expanded="false" />
-                <element signature="e#20919#20920#0" expanded="false" />
-                <element signature="e#20954#20955#0" expanded="false" />
-                <element signature="e#21303#21304#0" expanded="false" />
-                <element signature="e#21343#21344#0" expanded="false" />
-                <element signature="e#21752#21753#0" expanded="false" />
-                <element signature="e#21796#21797#0" expanded="false" />
-                <element signature="e#22126#22127#0" expanded="false" />
-                <element signature="e#22160#22161#0" expanded="false" />
-                <element signature="e#22515#22516#0" expanded="false" />
-                <element signature="e#22550#22551#0" expanded="false" />
-                <element signature="e#22877#22878#0" expanded="false" />
-                <element signature="e#22910#22911#0" expanded="false" />
-                <element signature="e#23236#23237#0" expanded="false" />
-                <element signature="e#23270#23271#0" expanded="false" />
-                <element signature="e#23461#23462#0" expanded="false" />
-                <element signature="e#23489#23490#0" expanded="false" />
-                <element signature="e#23823#23824#0" expanded="false" />
-                <element signature="e#23859#23860#0" expanded="false" />
-                <element signature="e#24252#24253#0" expanded="false" />
-                <element signature="e#24296#24297#0" expanded="false" />
-                <element signature="e#24585#24586#0" expanded="false" />
-                <element signature="e#24629#24630#0" expanded="false" />
-                <element signature="e#34085#34086#0" expanded="false" />
-                <element signature="e#34148#34149#0" expanded="false" />
-                <element signature="e#35921#35922#0" expanded="false" />
-                <element signature="e#35949#35950#0" expanded="false" />
-                <element signature="e#36328#36329#0" expanded="false" />
-                <element signature="e#36365#36366#0" expanded="false" />
-                <element signature="e#36744#36745#0" expanded="false" />
-                <element signature="e#36781#36782#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestInt2Char.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestInt2Char.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestInt2Char.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitialOrderTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter5/InitialOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -189,6 +135,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -209,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestBreakContinue.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestInt2Char.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/Chapter5/InitialOrderTest.java" />
       </list>
     </option>
   </component>
@@ -234,6 +184,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,103 +231,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zxt_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zxt_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mcxtzhang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zxt_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zxt_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mcxtzhang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zxt_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zxt_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mcxtzhang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="String&#9;PSI&#9;JAVA://java.lang.String&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer" />
   </component>
-  <component name="RunManager" selected="Application.TestInt2Char">
-    <configuration default="false" name="TestFloatDoubleMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mcxtzhang.Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.Chapter3.TestFloatDoubleMax" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="zxt_java" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.InitialOrderTest">
     <configuration default="false" name="PrintFuYi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -443,6 +307,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.Chapter4.TestInt2Char" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zxt_java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InitialOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mcxtzhang.Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.Chapter5.InitialOrderTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -637,19 +521,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestFloatDoubleMax" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PrintFuYi" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestCommaOperator" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestSwitch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestInt2Char" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PrintFuYi" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestCommaOperator" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestSwitch" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestInt2Char" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InitialOrderTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestInt2Char" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestSwitch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestCommaOperator" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PrintFuYi" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestFloatDoubleMax" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InitialOrderTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestInt2Char" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestSwitch" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestCommaOperator" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PrintFuYi" />
       </list>
     </recent_temporary>
   </component>
@@ -664,6 +548,14 @@
       <option name="presentableId" value="Default" />
       <updated>1485612507250</updated>
     </task>
+    <task id="LOCAL-00001" summary="【第四章】Switch、int char 互相转化、&quot;,&quot;操作符">
+      <created>1485948413406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485948413406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -685,7 +577,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26585016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26945245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -703,6 +595,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="【第四章】Switch、int char 互相转化、&quot;,&quot;操作符" />
+    <option name="LAST_COMMIT_MESSAGE" value="【第四章】Switch、int char 互相转化、&quot;,&quot;操作符" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -712,14 +608,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/DefaultClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -732,10 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#150#151#0" expanded="false" />
-            <element signature="e#206#207#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,54 +644,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1805">
           <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#36926#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7482#7483#0" expanded="false" />
-            <element signature="e#7542#7543#0" expanded="false" />
-            <element signature="e#17339#17340#0" expanded="false" />
-            <element signature="e#17374#17375#0" expanded="false" />
-            <element signature="e#18403#18404#0" expanded="false" />
-            <element signature="e#18434#18435#0" expanded="false" />
-            <element signature="e#18797#18798#0" expanded="false" />
-            <element signature="e#18872#18873#0" expanded="false" />
-            <element signature="e#19283#19284#0" expanded="false" />
-            <element signature="e#19342#19343#0" expanded="false" />
-            <element signature="e#19691#19692#0" expanded="false" />
-            <element signature="e#19725#19726#0" expanded="false" />
-            <element signature="e#19982#19983#0" expanded="false" />
-            <element signature="e#20023#20024#0" expanded="false" />
-            <element signature="e#20919#20920#0" expanded="false" />
-            <element signature="e#20954#20955#0" expanded="false" />
-            <element signature="e#21303#21304#0" expanded="false" />
-            <element signature="e#21343#21344#0" expanded="false" />
-            <element signature="e#21752#21753#0" expanded="false" />
-            <element signature="e#21796#21797#0" expanded="false" />
-            <element signature="e#22126#22127#0" expanded="false" />
-            <element signature="e#22160#22161#0" expanded="false" />
-            <element signature="e#22515#22516#0" expanded="false" />
-            <element signature="e#22550#22551#0" expanded="false" />
-            <element signature="e#22877#22878#0" expanded="false" />
-            <element signature="e#22910#22911#0" expanded="false" />
-            <element signature="e#23236#23237#0" expanded="false" />
-            <element signature="e#23270#23271#0" expanded="false" />
-            <element signature="e#23461#23462#0" expanded="false" />
-            <element signature="e#23489#23490#0" expanded="false" />
-            <element signature="e#23823#23824#0" expanded="false" />
-            <element signature="e#23859#23860#0" expanded="false" />
-            <element signature="e#24252#24253#0" expanded="false" />
-            <element signature="e#24296#24297#0" expanded="false" />
-            <element signature="e#24585#24586#0" expanded="false" />
-            <element signature="e#24629#24630#0" expanded="false" />
-            <element signature="e#34085#34086#0" expanded="false" />
-            <element signature="e#34148#34149#0" expanded="false" />
-            <element signature="e#35921#35922#0" expanded="false" />
-            <element signature="e#35949#35950#0" expanded="false" />
-            <element signature="e#36328#36329#0" expanded="false" />
-            <element signature="e#36365#36366#0" expanded="false" />
-            <element signature="e#36744#36745#0" expanded="false" />
-            <element signature="e#36781#36782#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter3/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter3/PrintFuYi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestCommaOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestInt2Char.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/DefaultClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OutClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter2/First.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter3/TestFloatDoubleMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/java/jdk1.8.0_101/src.zip!/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,10 +780,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#150#151#0" expanded="false" />
-            <element signature="e#206#207#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,54 +804,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36926#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7482#7483#0" expanded="false" />
-            <element signature="e#7542#7543#0" expanded="false" />
-            <element signature="e#17339#17340#0" expanded="false" />
-            <element signature="e#17374#17375#0" expanded="false" />
-            <element signature="e#18403#18404#0" expanded="false" />
-            <element signature="e#18434#18435#0" expanded="false" />
-            <element signature="e#18797#18798#0" expanded="false" />
-            <element signature="e#18872#18873#0" expanded="false" />
-            <element signature="e#19283#19284#0" expanded="false" />
-            <element signature="e#19342#19343#0" expanded="false" />
-            <element signature="e#19691#19692#0" expanded="false" />
-            <element signature="e#19725#19726#0" expanded="false" />
-            <element signature="e#19982#19983#0" expanded="false" />
-            <element signature="e#20023#20024#0" expanded="false" />
-            <element signature="e#20919#20920#0" expanded="false" />
-            <element signature="e#20954#20955#0" expanded="false" />
-            <element signature="e#21303#21304#0" expanded="false" />
-            <element signature="e#21343#21344#0" expanded="false" />
-            <element signature="e#21752#21753#0" expanded="false" />
-            <element signature="e#21796#21797#0" expanded="false" />
-            <element signature="e#22126#22127#0" expanded="false" />
-            <element signature="e#22160#22161#0" expanded="false" />
-            <element signature="e#22515#22516#0" expanded="false" />
-            <element signature="e#22550#22551#0" expanded="false" />
-            <element signature="e#22877#22878#0" expanded="false" />
-            <element signature="e#22910#22911#0" expanded="false" />
-            <element signature="e#23236#23237#0" expanded="false" />
-            <element signature="e#23270#23271#0" expanded="false" />
-            <element signature="e#23461#23462#0" expanded="false" />
-            <element signature="e#23489#23490#0" expanded="false" />
-            <element signature="e#23823#23824#0" expanded="false" />
-            <element signature="e#23859#23860#0" expanded="false" />
-            <element signature="e#24252#24253#0" expanded="false" />
-            <element signature="e#24296#24297#0" expanded="false" />
-            <element signature="e#24585#24586#0" expanded="false" />
-            <element signature="e#24629#24630#0" expanded="false" />
-            <element signature="e#34085#34086#0" expanded="false" />
-            <element signature="e#34148#34149#0" expanded="false" />
-            <element signature="e#35921#35922#0" expanded="false" />
-            <element signature="e#35949#35950#0" expanded="false" />
-            <element signature="e#36328#36329#0" expanded="false" />
-            <element signature="e#36365#36366#0" expanded="false" />
-            <element signature="e#36744#36745#0" expanded="false" />
-            <element signature="e#36781#36782#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -952,10 +828,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#150#151#0" expanded="false" />
-            <element signature="e#206#207#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -987,10 +860,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#150#151#0" expanded="false" />
-            <element signature="e#206#207#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,54 +911,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1330">
           <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#36926#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7482#7483#0" expanded="false" />
-            <element signature="e#7542#7543#0" expanded="false" />
-            <element signature="e#17339#17340#0" expanded="false" />
-            <element signature="e#17374#17375#0" expanded="false" />
-            <element signature="e#18403#18404#0" expanded="false" />
-            <element signature="e#18434#18435#0" expanded="false" />
-            <element signature="e#18797#18798#0" expanded="false" />
-            <element signature="e#18872#18873#0" expanded="false" />
-            <element signature="e#19283#19284#0" expanded="false" />
-            <element signature="e#19342#19343#0" expanded="false" />
-            <element signature="e#19691#19692#0" expanded="false" />
-            <element signature="e#19725#19726#0" expanded="false" />
-            <element signature="e#19982#19983#0" expanded="false" />
-            <element signature="e#20023#20024#0" expanded="false" />
-            <element signature="e#20919#20920#0" expanded="false" />
-            <element signature="e#20954#20955#0" expanded="false" />
-            <element signature="e#21303#21304#0" expanded="false" />
-            <element signature="e#21343#21344#0" expanded="false" />
-            <element signature="e#21752#21753#0" expanded="false" />
-            <element signature="e#21796#21797#0" expanded="false" />
-            <element signature="e#22126#22127#0" expanded="false" />
-            <element signature="e#22160#22161#0" expanded="false" />
-            <element signature="e#22515#22516#0" expanded="false" />
-            <element signature="e#22550#22551#0" expanded="false" />
-            <element signature="e#22877#22878#0" expanded="false" />
-            <element signature="e#22910#22911#0" expanded="false" />
-            <element signature="e#23236#23237#0" expanded="false" />
-            <element signature="e#23270#23271#0" expanded="false" />
-            <element signature="e#23461#23462#0" expanded="false" />
-            <element signature="e#23489#23490#0" expanded="false" />
-            <element signature="e#23823#23824#0" expanded="false" />
-            <element signature="e#23859#23860#0" expanded="false" />
-            <element signature="e#24252#24253#0" expanded="false" />
-            <element signature="e#24296#24297#0" expanded="false" />
-            <element signature="e#24585#24586#0" expanded="false" />
-            <element signature="e#24629#24630#0" expanded="false" />
-            <element signature="e#34085#34086#0" expanded="false" />
-            <element signature="e#34148#34149#0" expanded="false" />
-            <element signature="e#35921#35922#0" expanded="false" />
-            <element signature="e#35949#35950#0" expanded="false" />
-            <element signature="e#36328#36329#0" expanded="false" />
-            <element signature="e#36365#36366#0" expanded="false" />
-            <element signature="e#36744#36745#0" expanded="false" />
-            <element signature="e#36781#36782#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +958,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter4/TestInt2Char.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter5/InitialOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
