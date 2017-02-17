@@ -8,7 +8,7 @@ package com.mcxtzhang.chapter7;
  * Created:   2017/2/17.
  * History:
  */
-public class ChildFinal extends BaseFinal {
+public class ChildFinalTest extends BaseFinal {
 
     //@Override
     public final void method(){
