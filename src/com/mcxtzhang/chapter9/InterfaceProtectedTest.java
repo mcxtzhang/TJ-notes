@@ -16,6 +16,6 @@ public class InterfaceProtectedTest implements AInterface {
 
     @Override
     public void method1() {
-
+        System.out.println("fuck");
     }
 }
