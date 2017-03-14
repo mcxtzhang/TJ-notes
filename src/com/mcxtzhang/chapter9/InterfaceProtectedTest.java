@@ -1,8 +1,7 @@
 package com.mcxtzhang.chapter9;
 
 /**
-
- * Intro: 接口的方法必须是public的
+ * Intro:
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
