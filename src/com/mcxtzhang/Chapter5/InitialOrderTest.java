@@ -27,4 +27,9 @@ public class InitialOrderTest {
     public static void main(String[] args) {
         new InitialOrderTest();
     }
+
+    //顺序在构造器下方的初始化块
+    {
+        System.out.println("顺序在构造器下方的初始化块");
+    }
 } 

@@ -43,6 +43,10 @@ class C extends B {
     public C() {
         System.out.println("init C");
     }
+
+    {
+        System.out.println("子类的代码块 ");
+    }
 }
 
 class Z {
