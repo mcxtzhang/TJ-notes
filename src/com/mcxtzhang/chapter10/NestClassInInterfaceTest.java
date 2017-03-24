@@ -23,4 +23,5 @@ public interface NestClassInInterfaceTest {
             nestClassInInterfaceTest.method();
         }
     }
+
 }
