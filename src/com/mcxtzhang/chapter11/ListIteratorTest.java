@@ -44,7 +44,13 @@ public class ListIteratorTest {
             listIterator.next();
             listIterator.set(0);
         }
+        System.out.println(src);
 
+        listIterator = src.listIterator(5);
+        while (listIterator.hasNext()) {
+            listIterator.next();
+            listIterator.add(99);
+        }
         System.out.println(src);
 
     }
