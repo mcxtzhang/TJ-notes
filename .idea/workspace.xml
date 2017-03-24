@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter11/CollectionPrintTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter11/IteratorRemoveTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter11/ListIteratorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,19 +19,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NestClassInInterfaceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter10/NestClassInInterfaceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="33" />
-              <folding>
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CollectionPrintTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter11/CollectionPrintTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,14 +31,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IteratorRemoveTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IteratorRemoveTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter11/IteratorRemoveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="261">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListIteratorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter11/ListIteratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="652" column="20" lean-forward="false" selection-start-line="652" selection-start-column="20" selection-end-line="652" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,19 +101,6 @@
             <state relative-caret-position="203">
               <caret line="453" column="30" lean-forward="false" selection-start-line="453" selection-start-column="23" selection-end-line="453" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="4465" column="25" lean-forward="false" selection-start-line="4465" selection-start-column="25" selection-end-line="4465" selection-end-column="25" />
-              <folding>
-                <element signature="e#177013#177014#0" expanded="true" />
-                <element signature="e#177054#177055#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -191,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter10/NestClassInInterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter11/CollectionPrintTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter11/IteratorRemoveTest.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter11/ListIteratorTest.java" />
       </list>
     </option>
   </component>
@@ -521,7 +517,7 @@
       <recent name="com.mcxtzhang.chapter21" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorRemoveTest">
+  <component name="RunManager" selected="Application.ListIteratorTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -530,26 +526,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TJ-notes" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExtendInitOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mcxtzhang.chapter8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.chapter8.ExtendInitOrderTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -610,6 +586,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.chapter11.IteratorRemoveTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TJ-notes" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mcxtzhang.chapter11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.chapter11.ListIteratorTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -828,18 +824,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ExtendInitOrderTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NestClassInInterfaceTest$Impl" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CollectionPrintTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IteratorRemoveTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NestClassInInterfaceTest$Impl" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CollectionPrintTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IteratorRemoveTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListIteratorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IteratorRemoveTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CollectionPrintTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NestClassInInterfaceTest$Impl" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ExtendInitOrderTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListIteratorTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IteratorRemoveTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CollectionPrintTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NestClassInInterfaceTest$Impl" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -934,7 +930,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490337421864</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="【Chap 11】集合输出测试，集合输出形式为 [] 和 {}形式">
+      <created>1490346731063</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1490346731063</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -951,7 +954,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24776785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40401787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1015,7 +1018,8 @@
     <MESSAGE value="【Java Demo】null 也可以 instanceOf" />
     <MESSAGE value="【Chap 10】普通内部类不能有 static变量、方法 也不能包含嵌套类" />
     <MESSAGE value="【Chap 10】接口内部的类自动是 public static" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Chap 10】接口内部的类自动是 public static" />
+    <MESSAGE value="【Chap 11】集合输出测试，集合输出形式为 [] 和 {}形式" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Chap 11】集合输出测试，集合输出形式为 [] 和 {}形式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,21 +1040,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1771,8 +1760,8 @@
         <state relative-caret-position="203">
           <caret line="4465" column="25" lean-forward="false" selection-start-line="4465" selection-start-column="25" selection-end-line="4465" selection-end-column="25" />
           <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177013#177014#0" expanded="false" />
+            <element signature="e#177054#177055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1848,8 +1837,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter11/IteratorRemoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="261">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="652" column="20" lean-forward="false" selection-start-line="652" selection-start-column="20" selection-end-line="652" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter11/ListIteratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
