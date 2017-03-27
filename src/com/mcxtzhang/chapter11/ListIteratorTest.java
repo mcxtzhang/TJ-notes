@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 /**
- * Intro: List Iterator
+ * Intro: List Iterator 可以双向移动
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
