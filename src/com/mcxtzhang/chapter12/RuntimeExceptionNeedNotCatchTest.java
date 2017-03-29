@@ -1,7 +1,7 @@
 package com.mcxtzhang.chapter12;
 
 /**
- * Intro: RuntimeException是一个例外，这种异常，不需要catch or throws
+ * Intro: RuntimeException是一个例外， 这种异常，不需要catch or throws
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
