@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="【Chap 14】 泛化的类型，">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter15/GenericsClearTest.java" />
+    <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/chapter15/GenericsClearTest.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter15/GenericsClearTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,9 +32,23 @@
       <file leaf-file-name="GenericsClearTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter15/GenericsClearTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="383">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="62" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="458" column="15" lean-forward="false" selection-start-line="458" selection-start-column="15" selection-end-line="458" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#54151#0" expanded="true" />
+                <element signature="e#15414#15415#0" expanded="true" />
+                <element signature="e#15459#15460#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -347,7 +361,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="CLass&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Class&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;HashMa&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;BUfferRea&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;StringBU&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;LInkedLI&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Co&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collection.java&#10;Coll&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;PriorityQu&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java&#10;LinkedLi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;LinkedLIst&#9;PSI&#9;JAVA://java.util.LinkedList&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;CLass&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Class&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;HashMa&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;BUfferRea&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;StringBU&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;LInkedLI&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Co&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collection.java&#10;Coll&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;PriorityQu&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java&#10;LinkedLi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;LinkedLIst&#9;PSI&#9;JAVA://java.util.LinkedList&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -816,7 +830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490955607303</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="【Chap 15】 泛型T，不能instanceof，不能new T(),不能创建数组,但是可强转，可以用Class&lt;T&gt;.isInstance()替换不能instanceof">
+      <created>1491385953578</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1491385953578</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -833,7 +854,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35825893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35825893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -879,7 +900,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35825893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -906,7 +927,8 @@
     <MESSAGE value="【Chap 12】RuntimeException是一个例外，这种异常，不需要catch or throws" />
     <MESSAGE value="【Chap 14】 可以直接用 A.class.newInstance() 创建实例" />
     <MESSAGE value="【Chap 14】 泛化的类型，" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Chap 14】 泛化的类型，" />
+    <MESSAGE value="【Chap 15】 泛型T，不能instanceof，不能new T(),不能创建数组,但是可强转，可以用Class&lt;T&gt;.isInstance()替换不能instanceof" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Chap 15】 泛型T，不能instanceof，不能new T(),不能创建数组,但是可强转，可以用Class&lt;T&gt;.isInstance()替换不能instanceof" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,7 +1026,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/StringBuilder.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractCollection.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractList.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/System.java" />
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter12/ExceptionInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1111,10 +1132,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="458" column="15" lean-forward="false" selection-start-line="458" selection-start-column="15" selection-end-line="458" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#54151#0" expanded="true" />
+            <element signature="e#15414#15415#0" expanded="true" />
+            <element signature="e#15459#15460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter15/GenericsClearTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="383">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="62" />
           <folding />
         </state>
       </provider>

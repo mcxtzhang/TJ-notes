@@ -1,5 +1,7 @@
 package com.mcxtzhang.chapter15;
 
+import java.lang.reflect.Array;
+
 /**
  * Intro:
  * Author: zhangxutong
@@ -10,6 +12,10 @@ package com.mcxtzhang.chapter15;
  */
 public class GenericsClearTest<TYPE> {
     Class<TYPE> holder;
+    //运行时使用 会出错
+    TYPE[] arrays;
+    //运行时使用 不会出错
+    TYPE[] arrays2;
 
     public GenericsClearTest(Class<TYPE> holder) {
         this.holder = holder;
@@ -17,7 +23,11 @@ public class GenericsClearTest<TYPE> {
         //new TYPE();
         //new TYPE[5];
         int[] ints = new int[5];
-        TYPE[] arrays = (TYPE[]) new Object[5];
+
+        //运行时使用 会出错
+        arrays = (TYPE[]) new Object[5];
+        //运行时使用 不会出错
+        arrays2 = (TYPE[]) Array.newInstance(String.class, 5);
 
         TYPE a = (TYPE) "aaa";
 
@@ -31,6 +41,12 @@ public class GenericsClearTest<TYPE> {
 
         System.out.println(class1.holder.isInstance("aa"));
         System.out.println(class1.holder.isInstance(new Object()));
+
+        //运行时使用 会出错
+        //class1.arrays[0] = "s";
+        //运行时使用 不会出错
+        class1.arrays2[0] = "s";
+        System.out.println(class1.arrays2[0]);
 
         GenericsClearTest<Object> class2 = new GenericsClearTest<>(Object.class);
         System.out.println(class2.holder);
