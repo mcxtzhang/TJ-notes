@@ -15,9 +15,14 @@ public class CreateArrayTest {
         //第二种  {}指定具体内容
         A[] b = {new A("a"), new A("ab"), new A("bc"), new A("d")};
         //第三种 new {}指定具体内容
-        A[] c = new A[]{new A("a"), new A("b"), new A("c"), new A("d")};
+        A[] c = new A[]{new A("a"), new A("b"), new A("c"), new A("d"),};
 
         System.out.println(c);
+
+        System.out.println(~312);
+        System.out.println(~-313);
+        System.out.println(~1);
+        System.out.println(~-1);
 
     }
 
