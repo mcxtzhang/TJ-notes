@@ -17,6 +17,7 @@ public class CreateArrayTest {
         //第三种 new {}指定具体内容
         A[] c = new A[]{new A("a"), new A("b"), new A("c"), new A("d")};
 
+        System.out.println(c);
 
     }
 
