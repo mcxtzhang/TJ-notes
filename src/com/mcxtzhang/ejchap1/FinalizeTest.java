@@ -1,7 +1,7 @@
 package com.mcxtzhang.ejchap1;
 
 /**
- * Intro:
+ * Intro:终结方法守卫者
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
