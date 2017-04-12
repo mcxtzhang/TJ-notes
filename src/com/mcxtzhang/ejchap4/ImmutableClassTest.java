@@ -16,6 +16,7 @@ public class ImmutableClassTest {
         System.out.println(s.hashCode());
 
         Integer integer = new Integer(1);
+        Integer integer2 = new Integer(1);
         System.out.println(integer.hashCode());
         integer = 2;
         System.out.println(integer.hashCode());
