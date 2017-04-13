@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ImmutableExampleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ConstantInterfaceTest19.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ImmutableClassTest.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ImmutableClassTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +19,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ImmutableClassTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImmutableClassTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ImmutableClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="358">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="543" column="53" lean-forward="false" selection-start-line="543" selection-start-column="53" selection-end-line="543" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantInterfaceTest19.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ConstantInterfaceTest19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="28" />
+              <folding>
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,6 +136,8 @@
       <find>put</find>
       <find>addAll</find>
       <find>toString</find>
+      <find>Entry</find>
+      <find>AbstractmapEnt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/Chapter6/List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/special/List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/Chapter6/ImportTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/Chapter7/BlankFinalTest.java" />
@@ -181,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/ejchap1/EnumSingletonTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ImmutableExampleTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ImmutableClassTest.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ConstantInterfaceTest19.java" />
       </list>
     </option>
   </component>
@@ -513,7 +539,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/Integer.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/String.java&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Object.java&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream&#10;HashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;Boolean&#9;PSI&#9;JAVA://java.lang.Boolean&#10;Concurh&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;COncurrentMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentMap&#10;BlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;PriorityQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/PriorityQueue.java&#10;Colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;System&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/System.java&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;CLass&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Class&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;HashMa&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;BUfferRea&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;StringBU&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LInkedLI&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Co&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collection.java&#10;Coll&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;PriorityQu&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java&#10;LinkedLi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;LinkedLIst&#9;PSI&#9;JAVA://java.util.LinkedList&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
+    <property name="SearchEverywhereHistoryKey" value="Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/Integer.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/String.java&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Object.java&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream&#10;HashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;Boolean&#9;PSI&#9;JAVA://java.lang.Boolean&#10;Concurh&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;COncurrentMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentMap&#10;BlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;PriorityQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/PriorityQueue.java&#10;Colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;System&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/System.java&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;CLass&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Class&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;HashMa&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;BUfferRea&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;StringBU&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LInkedLI&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Co&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collection.java&#10;Coll&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;PriorityQu&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java&#10;LinkedLi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;LinkedLIst&#9;PSI&#9;JAVA://java.util.LinkedList&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -630,27 +656,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Application.ImmutableClassTest">
-    <configuration default="false" name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mcxtzhang.chapter17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.chapter17.SetTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TJ-notes" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ConstantInterfaceTest19">
     <configuration default="false" name="FillListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -719,6 +725,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.ejchap4.ImmutableClassTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TJ-notes" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConstantInterfaceTest19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mcxtzhang.ejchap4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.ejchap4.ConstantInterfaceTest19" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -936,19 +962,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SetTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FillListTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EnumSingletonTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AutoBoxingTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ImmutableClassTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FillListTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EnumSingletonTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AutoBoxingTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ImmutableClassTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConstantInterfaceTest19" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ImmutableClassTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AutoBoxingTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EnumSingletonTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FillListTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SetTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConstantInterfaceTest19" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ImmutableClassTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AutoBoxingTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EnumSingletonTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FillListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1155,7 +1181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491898640786</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="【EJ Chap 4】不可变的类的测试，修改这些类的值，是改变引用 。 两个相同的值的类，是两个不同的类，所以可以通过缓存解决这种类。">
+      <created>1491989518609</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1491989518609</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1172,25 +1205,25 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80691963" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35825893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35825893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19936034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1218,7 +1251,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80691963" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35825893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19936034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1246,7 +1279,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【第七章 】空白final 一个空白fianl类(final修饰数据，必须在定义时 或者 构造器里初始化)" />
     <MESSAGE value="【第七章 】private 的方法就是final的" />
     <MESSAGE value="【第七章 】了解包括继承在内的初始化全过程：" />
     <MESSAGE value="【第八章 】包括继承在内的初始化全过程：" />
@@ -1271,7 +1303,8 @@
     <MESSAGE value="【Chap 17】填充List测试,通过构造器和addAll() 都可以" />
     <MESSAGE value="【EJ Chap 1】枚举单例、自动装箱创建过多对象，终结方法" />
     <MESSAGE value="【EJ Chap 4】不可变的类的测试，修改这些类的值，是改变引用 。" />
-    <option name="LAST_COMMIT_MESSAGE" value="【EJ Chap 4】不可变的类的测试，修改这些类的值，是改变引用 。" />
+    <MESSAGE value="【EJ Chap 4】不可变的类的测试，修改这些类的值，是改变引用 。 两个相同的值的类，是两个不同的类，所以可以通过缓存解决这种类。" />
+    <option name="LAST_COMMIT_MESSAGE" value="【EJ Chap 4】不可变的类的测试，修改这些类的值，是改变引用 。 两个相同的值的类，是两个不同的类，所以可以通过缓存解决这种类。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1304,7 +1337,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/io/Reader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Readable.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Long.java" />
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter14/TypeTest.java">
@@ -1846,14 +1878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1457">
-          <caret line="307" column="41" lean-forward="false" selection-start-line="307" selection-start-column="41" selection-end-line="307" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -2018,9 +2042,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ImmutableClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="358">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="543" column="53" lean-forward="false" selection-start-line="543" selection-start-column="53" selection-end-line="543" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/ejchap4/ConstantInterfaceTest19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
