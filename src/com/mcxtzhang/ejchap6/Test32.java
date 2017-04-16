@@ -1,4 +1,4 @@
-package com.mcxtzhang.cjchap6;
+package com.mcxtzhang.ejchap6;
 
 import java.util.EnumSet;
 

@@ -1,4 +1,4 @@
-package com.mcxtzhang.cjchap6;
+package com.mcxtzhang.ejchap6;
 
 /**
  * Intro: 用实例域代替序数 ordinal()
