@@ -17,17 +17,20 @@ public class ImmutableClassTest {
 
         Integer integer = new Integer(1);
         Integer integer2 = new Integer(1);
+        System.out.println(integer == integer2);//false
+        System.out.println(integer.equals(integer2));
+        System.out.println(1 == integer);
+        System.out.println(1 == integer2);
+        integer = 1;
+        integer2 = 1;
         System.out.println(integer == integer2);
         System.out.println(integer.equals(integer2));
 
 
-        System.out.println(integer.hashCode());
-        integer = 2;
-        System.out.println(integer.hashCode());
-
-        integer = 1;
-        integer2 = 1;
-        System.out.println(integer == integer2);
+        integer = 128;
+        integer2 = 128;
+        System.out.println(integer == integer2);//false
+        System.out.println(128 == integer);
         System.out.println(integer.equals(integer2));
 
     }
