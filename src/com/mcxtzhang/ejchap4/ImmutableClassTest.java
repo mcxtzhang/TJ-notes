@@ -33,5 +33,12 @@ public class ImmutableClassTest {
         System.out.println(128 == integer);
         System.out.println(integer.equals(integer2));
 
+
+        integer = 127;
+        integer2 = 127;
+        System.out.println(integer == integer2);//true
+        System.out.println(127 == integer);
+        System.out.println(integer.equals(integer2));
+
     }
 }
