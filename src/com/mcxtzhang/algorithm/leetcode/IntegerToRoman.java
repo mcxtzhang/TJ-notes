@@ -1,4 +1,4 @@
-package com.mcxtzhang.leetcode;
+package com.mcxtzhang.algorithm.leetcode;
 
 /**
  * Intro:
