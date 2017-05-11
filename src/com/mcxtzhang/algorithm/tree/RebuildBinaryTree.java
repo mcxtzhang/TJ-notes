@@ -37,15 +37,12 @@ public class RebuildBinaryTree {
         System.out.println(pre.subList(3, pre.size()));
 
         TreeNode treeNode = rebuild(pre, middle);
-        System.out.println(treeNode);
+
+        DepthFirstTravesal.dfs(treeNode);
     }
 
 
-    private static class TreeNode {
-        int value;
-        TreeNode left;
-        TreeNode right;
-    }
+
 
     private static TreeNode rebuild(List<Integer> pre, List<Integer> middle) {
         int value = pre.get(0);
