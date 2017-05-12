@@ -18,4 +18,27 @@ public class DepthFirstTravesal {
         dfs(treeNode.right);
 
     }
+
+    //中序遍历
+    public static void dfs2(TreeNode root) {
+
+        if (root.left != null) {
+            dfs2(root.left);
+        }
+        System.out.print(root.value);
+        if (root.right != null) {
+            dfs2(root.right);
+        }
+    }
+
+    //后序遍历
+    public static void dfs3(TreeNode root) {
+        if (root.left!=null){
+            dfs3(root.left);
+        }
+        if (root.right!=null){
+            dfs3(root.right);
+        }
+        System.out.println(root.value);
+    }
 }

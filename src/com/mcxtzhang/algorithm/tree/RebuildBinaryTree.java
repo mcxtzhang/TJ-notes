@@ -3,6 +3,9 @@ package com.mcxtzhang.algorithm.tree;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.mcxtzhang.algorithm.tree.DepthFirstTravesal.dfs2;
+import static com.mcxtzhang.algorithm.tree.DepthFirstTravesal.dfs3;
+
 /**
  * Intro:
  * Author: zhangxutong
@@ -39,6 +42,10 @@ public class RebuildBinaryTree {
         TreeNode treeNode = rebuild(pre, middle);
 
         DepthFirstTravesal.dfs(treeNode);
+        System.out.println();
+        dfs2(treeNode);
+        System.out.println();
+        dfs3(treeNode);
     }
 
 
