@@ -1,8 +1,5 @@
 package com.mcxtzhang;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -21,7 +18,7 @@ public class Main {
         System.out.println(test.i);
 
 
-        List<String> a = new ArrayList<String>();
+/*        List<String> a = new ArrayList<String>();
         a.add("1");
         a.add("2");
         a.add("3");
@@ -31,10 +28,23 @@ public class Main {
             if ("1".equals(temp)) {
                 a.remove(temp);
             }
-        }
+        }*/
 
 
+        //String 在函数中 是值传递 还是引用传递
+        System.out.println("***********在函数中 是值传递 还是引用传递********************************");
+        String before = "before";
+        char[] beforeChars = new char[]{'a', 'b', 'c'};
+        System.out.println(before);
+        System.out.println(beforeChars);
 
+        change(before,beforeChars);
+        System.out.println(before);
+        System.out.println(beforeChars);
+    }
 
+    public static void change(String string, char[] chars) {
+        string = "changed";
+        chars[0] = 'c';
     }
 }
