@@ -46,9 +46,10 @@ public class RebuildBinaryTree {
         dfs2(treeNode);
         System.out.println();
         dfs3(treeNode);
+
+        System.out.println("广度优先遍历：");
+        BreadthFirstSearch.bfs(treeNode);
     }
-
-
 
 
     private static TreeNode rebuild(List<Integer> pre, List<Integer> middle) {
@@ -57,11 +58,11 @@ public class RebuildBinaryTree {
         node.value = value;
         if (pre.size() > 1) {
             int index = middle.indexOf(value);//也相当于长度
-            if (pre.size() >= index + 1  && index !=0) {
-                node.left = rebuild(pre.subList(1, index + 1), middle.subList(0, index ));
+            if (pre.size() >= index + 1 && index != 0) {
+                node.left = rebuild(pre.subList(1, index + 1), middle.subList(0, index));
             }
-            if (index + 1 != pre.size() && index + 1  != middle.size()) {
-                node.right = rebuild(pre.subList(index + 1, pre.size()), middle.subList(index + 1 , middle.size()));
+            if (index + 1 != pre.size() && index + 1 != middle.size()) {
+                node.right = rebuild(pre.subList(index + 1, pre.size()), middle.subList(index + 1, middle.size()));
             }
         }
         return node;

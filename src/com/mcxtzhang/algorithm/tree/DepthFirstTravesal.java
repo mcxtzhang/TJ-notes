@@ -39,6 +39,6 @@ public class DepthFirstTravesal {
         if (root.right!=null){
             dfs3(root.right);
         }
-        System.out.println(root.value);
+        System.out.print(root.value);
     }
 }
