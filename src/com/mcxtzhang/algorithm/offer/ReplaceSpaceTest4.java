@@ -16,8 +16,16 @@ public class ReplaceSpaceTest4 {
 
 
         System.out.println(replaceSpace(src));
-
-
+        src = "Wearehappy";
+        System.out.println(replaceSpace(src));
+        src = "";
+        System.out.println(replaceSpace(src));
+        src = " ";
+        System.out.println(replaceSpace(src));
+        src = "  ";
+        System.out.println(replaceSpace(src));
+        src = null;
+        System.out.println(replaceSpace(src));
     }
 
     public static String replaceSpace(String src) {
