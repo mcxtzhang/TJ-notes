@@ -18,13 +18,28 @@ public class DimensionalArraySearchTest3 {
         };
         int target = 7;
         dimensionalArraySearch(src, target);
+        dimensionalArraySearch(src, 1);
+        dimensionalArraySearch(src, 15);
+
+        dimensionalArraySearch(src, -1);
+        dimensionalArraySearch(src, 16);
+        dimensionalArraySearch(src, 3);
+
+
+        dimensionalArraySearch(null, 3);
+
+
     }
 
 
-
-
-
     public static void dimensionalArraySearch(int[][] src, int searchKey) {
+        System.out.println("开始查询");
+        if (src == null) {
+            System.out.println("数组为null，退出");
+            return;
+        }
+
+
         int j = src[0].length - 1;
         for (int i = 0; i < src.length; i++) {
             for (; j >= 0; j--) {
