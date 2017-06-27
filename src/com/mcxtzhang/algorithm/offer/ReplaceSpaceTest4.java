@@ -1,7 +1,7 @@
 package com.mcxtzhang.algorithm.offer;
 
 /**
- * Intro: 替换空格
+ * Intro: 替换空格   和 合并两个有序数组
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
@@ -26,6 +26,31 @@ public class ReplaceSpaceTest4 {
         System.out.println(replaceSpace(src));
         src = null;
         System.out.println(replaceSpace(src));
+
+
+        System.out.println("准备合并两个有序数组");
+        int[] src1 = new int[20];
+        int[] src2 = new int[10];
+        for (int i = 0; i < 10; i++) {
+            src1[i] = i * 5;
+            src2[i] = i * 10;
+        }
+
+        for (int i : src1) {
+            System.out.print(i + ",");
+        }
+        System.out.println();
+        for (int i : src2) {
+            System.out.print(i + ",");
+        }
+
+        System.out.println("合并两个有序数组");
+        merge2OrderedArrays(src1, src2);
+
+        for (int i : src1) {
+            System.out.print(i + ",");
+        }
+
     }
 
     public static String replaceSpace(String src) {
@@ -78,5 +103,43 @@ public class ReplaceSpaceTest4 {
 
 
         return new String(result);
+    }
+
+
+    /**
+     * 合并两个有序的数组
+     *
+     * @param src1
+     * @param src2
+     */
+    public static void merge2OrderedArrays(int[] src1, int[] src2) {
+        if (src1 == null || src2 == null) {
+            return;
+        }
+
+        int j = 0;
+        for (int i = 1; i < src1.length; i++) {
+            if (src1[i] == 0) {
+                j = i - 1;
+                break;
+            }
+        }
+
+        int k = src2.length - 1;
+        for (int i = src1.length - 1; i >= 0; i--) {
+            if (j == -1) {
+                src1[i] = src2[k];
+                k--;
+            } else if (k == -1) {
+                src1[i] = src1[j];
+                j--;
+            } else if (src1[j] > src2[k]) {
+                src1[i] = src1[j];
+                j--;
+            } else {
+                src1[i] = src2[k];
+                k--;
+            }
+        }
     }
 }
