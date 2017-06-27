@@ -17,13 +17,23 @@ public class DimensionalArraySearchTest3 {
                 {6, 8, 11, 15}
         };
         int target = 7;
+        dimensionalArraySearch(src, target);
+    }
 
+
+
+
+
+    public static void dimensionalArraySearch(int[][] src, int searchKey) {
+        int j = src[0].length - 1;
         for (int i = 0; i < src.length; i++) {
-            for (int j = src[i].length - 1; j >= 0; j--) {
+            for (; j >= 0; j--) {
+                System.out.println("遍历到:" + i + "," + j);
                 int temp = src[i][j];
-                if (temp == target) {
-                    System.out.println("找到了"+i+","+j);
-                } else if (temp < target) {
+                if (temp == searchKey) {
+                    System.out.println("找到了" + i + "," + j);
+                    return;
+                } else if (temp < searchKey) {
                     //小于，下一行
                     break;
                 } else {//大于 删除这一列的， 向左列继续查询
@@ -31,7 +41,5 @@ public class DimensionalArraySearchTest3 {
                 }
             }
         }
-
-
     }
 }
