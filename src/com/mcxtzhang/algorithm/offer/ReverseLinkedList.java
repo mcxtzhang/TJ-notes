@@ -26,6 +26,8 @@ public class ReverseLinkedList {
             insertNode(head, i);
         }
         reverseLinkedList(head);
+
+        reverseLinkedList2(head);
     }
 
     public static void insertNode(Node head, int value) {
@@ -54,5 +56,21 @@ public class ReverseLinkedList {
         while (!stack.isEmpty()) {
             System.out.println(stack.pop());
         }
+    }
+
+    public static void reverseLinkedList2(Node head) {
+        if (head == null || head.next == null)
+            return;
+        System.out.println("第二种遍历方式");
+        outputValue(head.next);
+    }
+
+    public static void outputValue(Node node) {
+        if (node == null)
+            return;
+        if (node.next != null) {
+            outputValue(node.next);
+        }
+        System.out.println(node.value);
     }
 }
