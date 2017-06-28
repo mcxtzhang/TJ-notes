@@ -10,7 +10,7 @@ import java.util.Stack;
  * Created:   2017/6/28.
  * History:
  */
-public class ReverseLinkedList {
+public class ReverseLinkedListTest5 {
 
     private static class Node {
         int value;

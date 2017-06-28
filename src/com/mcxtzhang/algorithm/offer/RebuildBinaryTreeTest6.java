@@ -61,18 +61,18 @@ public class RebuildBinaryTreeTest6 {
         TreeNode node = new TreeNode();
         node.value = pre.get(0);
         int index = middle.indexOf(node.value);
-        if (index == 0) {
+/*        if (index == 0) {//不这么判断的话，就要判断是否越界
             node.left = null;
         } else {
             node.left = rebuild(pre.subList(1, index + 1), middle.subList(0, index));
-        }
-
-        if (index == middle.size() - 1) {
+        }*/
+        node.left = rebuild(pre.subList(1, index + 1), middle.subList(0, index));
+/*        if (index == middle.size() - 1) {
             node.right = null;
         } else {
             node.right = rebuild(pre.subList(index + 1, pre.size()), middle.subList(index + 1, middle.size()));
-        }
-
+        }*/
+        node.right = rebuild(pre.subList(index + 1, pre.size()), middle.subList(index + 1, middle.size()));
 
         return node;
     }
