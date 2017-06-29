@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/FeibonaqieShulie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/CustomThreadFactoryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,14 +24,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="FeibonaqieShulie.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeibonaqieShulie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/FeibonaqieShulie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="500">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomThreadFactoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/CustomThreadFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="22" />
               <folding>
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,9 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter16/RetrunArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter16/CreateArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter17/SetTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter17/FillListTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/ejchap1/AutoBoxingTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/ejchap1/FinalizeTest.java" />
@@ -119,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/ReplaceSpaceTest4.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/exp2.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example1.java" />
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example3.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/RebuildBinaryTreeTest6.java" />
@@ -130,6 +145,10 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/WorkerAgeSortTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test8.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/FeibonaqieShulie.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test2.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example3.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/CustomThreadPoolTest.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/CustomThreadFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -177,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,40 +270,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TJ-notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TJ-notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mcxtzhang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offer" />
+              <option name="myItemId" value="chapter21" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,27 +292,7 @@
       <recent name="com.mcxtzhang.chapter21" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FeibonaqieShulie">
-    <configuration default="false" name="Test7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mcxtzhang.algorithm.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.algorithm.offer.Test7_2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TJ-notes" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CustomThreadFactoryTest">
     <configuration default="false" name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -388,6 +361,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.algorithm.offer.FeibonaqieShulie" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TJ-notes" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CustomThreadFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mcxtzhang.chapter21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.chapter21.CustomThreadFactoryTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -605,19 +598,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test7_2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.QuickSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WorkerAgeSortTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test8" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FeibonaqieShulie" />
+      <item index="0" class="java.lang.String" itemvalue="Application.QuickSort" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WorkerAgeSortTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test8" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FeibonaqieShulie" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CustomThreadFactoryTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FeibonaqieShulie" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test8" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WorkerAgeSortTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.QuickSort" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test7_2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CustomThreadFactoryTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FeibonaqieShulie" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test8" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WorkerAgeSortTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -634,13 +627,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
-    </task>
-    <task id="LOCAL-00012" summary="【Chap 11】集合输出测试，集合输出形式为 [] 和 {}形式">
-      <created>1490346731063</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1490346731063</updated>
     </task>
     <task id="LOCAL-00013" summary="【Chap 11】【ListIterator】 //顺序时，previousIndex 其实是它本身，nextIndex 是下一个，//逆序时，nextIndex 是它本神， previousIndex 是下一个">
       <created>1490347372205</created>
@@ -978,7 +964,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498723461683</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="【Java】斐波那契数列">
+      <created>1498726356993</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1498726356997</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1000,7 +993,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22867803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1040,10 +1033,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8058036" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3671875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3671875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22654584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1087,7 +1080,6 @@
     <MESSAGE value="【Java】替换空格" />
     <MESSAGE value="【Java】约瑟夫环" />
     <MESSAGE value="【Java】合并两个有序数组" />
-    <MESSAGE value="【Java】斐波那契数列" />
     <MESSAGE value="【Java】测试后台线程" />
     <MESSAGE value="【Java】输入一个链表的头结点，从尾到头反过来打印每个节点的值" />
     <MESSAGE value="【Java】重建二叉树" />
@@ -1096,7 +1088,8 @@
     <MESSAGE value="【Java】快速排序" />
     <MESSAGE value="【Java】对公司的员工年龄排序" />
     <MESSAGE value="【Java】旋转数组的最小数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】旋转数组的最小数字" />
+    <MESSAGE value="【Java】斐波那契数列" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】斐波那契数列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1153,14 +1146,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/ReverseLinkedList3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -1376,13 +1361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/tree/DepthFirstTravesal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
@@ -1498,11 +1476,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/FeibonaqieShulie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="500">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/CustomThreadFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
