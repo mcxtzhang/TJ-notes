@@ -12,24 +12,31 @@ public class Test8 {
 
     public static void main(String[] args) {
         int[] src = new int[]{3, 4, 5, 1, 2,};
-        int i = minReverseArray(src);
-        System.out.println(i);
+        System.out.println(minReverseArray(src));
+        System.out.println(minReverseArray2(src));
 
         src = new int[]{};
-         i = minReverseArray(src);
-        System.out.println(i);
+        System.out.println(minReverseArray(src));
+        System.out.println(minReverseArray2(src));
 
         src = null;
-        i = minReverseArray(src);
-        System.out.println(i);
+        System.out.println(minReverseArray(src));
+        System.out.println(minReverseArray2(src));
 
         src = new int[]{5};
-        i = minReverseArray(src);
-        System.out.println(i);
+        System.out.println(minReverseArray(src));
+        System.out.println(minReverseArray2(src));
 
-        src = new int[]{5,5,1,2,3,4};
-        i = minReverseArray(src);
-        System.out.println(i);
+
+
+        src = new int[]{1, 2, 3, 4, 5};
+        System.out.println(minReverseArray(src));
+        System.out.println(minReverseArray2(src));
+
+
+/*        src = new int[]{5, 5, 1, 2, 3, 4};
+        System.out.println(minReverseArray(src));
+        System.out.println(minReverseArray2(src));*/
     }
 
 
@@ -49,6 +56,29 @@ public class Test8 {
             }
         }
         return src[right];
+
+    }
+
+
+    public static int minReverseArray2(int[] src) {
+        if (src == null || src.length < 1) return 0;
+        if (src.length == 1) return src[0];
+
+        int left = 0;
+        int right = src.length - 1;
+        int middle = left;
+        while (src[left] > src[right]) {
+            middle = (left + right) / 2;
+            if (src[middle] > src[left]) {
+                left = middle;
+            } else if (src[middle] < src[left]) {
+                right = middle;
+            }
+            if (right - left == 1) {
+                break;
+            }
+        }
+        return src[middle];
 
     }
 }
