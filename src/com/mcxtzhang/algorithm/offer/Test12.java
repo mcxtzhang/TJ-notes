@@ -24,7 +24,7 @@ public class Test12 {
             System.out.println(i);
         }
     }
-
+/*
     public static void printNum2(int n) {
         if (n < 1) return;
         StringBuilder sbMax = new StringBuilder();
@@ -42,6 +42,6 @@ public class Test12 {
         for (int i = 1; i <= max; i++) {
             System.out.println(i);
         }
-    }
+    }*/
 
 }
