@@ -52,7 +52,7 @@ public class RebuildBinaryTree {
     }
 
 
-    private static TreeNode rebuild(List<Integer> pre, List<Integer> middle) {
+    public static TreeNode rebuild(List<Integer> pre, List<Integer> middle) {
         int value = pre.get(0);
         TreeNode node = new TreeNode();
         node.value = value;
