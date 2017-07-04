@@ -14,6 +14,7 @@ public class Test20 {
         printMatrix(src);
         printMatrix(null);
 
+        // 5*5
         src = new int[5][5];
         int temp = 1;
         for (int i = 0; i < 5; i++) {
@@ -22,16 +23,18 @@ public class Test20 {
             }
         }
 
+        printMatrix(src);
 
-        for (int[] ints : src) {
-            for (int anInt : ints) {
-                System.out.print(anInt + " ");
+        // 4*5
+        src = new int[4][5];
+        temp = 1;
+        for (int i = 0; i < 4; i++) {
+            for (int i1 = 0; i1 < 5; i1++) {
+                src[i][i1] = temp++;
             }
         }
 
-
         printMatrix(src);
-
     }
 
     public static void printMatrix(int[][] matrix) {
@@ -42,26 +45,27 @@ public class Test20 {
         if (m <= 0) return;
         int n = matrix[0].length;
 
-        int max = Math.max(m, n);
-        max = max / 2;
+        int min = Math.min(m, n);
+        min = (int) ((min+0.5f) / 2);
 
-
-        for (int i = 0; i <= max; i++) {
-            for (int j = i; j <= m - 1 - i; j++) {
-                System.out.print(matrix[i][j] + " ");
+        for (int i = 0; i < min; i++) {
+            for (int j = i; j <= n - 1 - i; j++) {
+                System.out.print("向右:"+matrix[i][j] + " ");
             }
-            for (int j = i + 1; j <= n - 1 - i; j++) {
-                System.out.print(matrix[j][m - 1 - i] + " ");
+            System.out.println();
+            for (int j = i + 1; j <= m - 1 - i; j++) {
+                System.out.print("向下:"+matrix[j][n - 1 - i] + " ");
             }
-            for (int j = m - 2 - i; j >= i; j--) {
-                System.out.print(matrix[n - 1 - i][j] + " ");
+            System.out.println();
+            for (int j = n - 2 - i; j >= i; j--) {
+                System.out.print("向左:"+matrix[m - 1 - i][j] + " ");
             }
-            for (int j = n - 2 - i; j >= i + 1; j--) {
-                System.out.print(matrix[j][i]+ " ");
+            System.out.println();
+            for (int j = m - 2 - i; j >= i + 1; j--) {
+                System.out.print("向上:"+matrix[j][i] + " ");
             }
             System.out.println();
         }
-
 
     }
 }
