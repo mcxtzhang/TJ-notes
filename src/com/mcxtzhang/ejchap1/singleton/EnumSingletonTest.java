@@ -1,4 +1,4 @@
-package com.mcxtzhang.ejchap1;
+package com.mcxtzhang.ejchap1.singleton;
 
 /**
  * Intro:
@@ -18,6 +18,13 @@ public class EnumSingletonTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
+        //枚举可以实现接口
+        ISomeInterface singleTon = EnumSingleton.INSTANCE;
+        singleTon.someFunc();
+        singleTon.someFunc2();
+
 
     }
 

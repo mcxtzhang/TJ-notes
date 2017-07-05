@@ -31,6 +31,12 @@ class Run1 implements Runnable {
 
     @Override
     public void run() {
+        //这段注释主要为了测试后台线程
+/*        try {
+            TimeUnit.MILLISECONDS.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }*/
         for (int i = 0; i < 3; i++) {
             System.out.println("run ...:" + i+","+"id:" + id);
             Thread.yield();
