@@ -2,14 +2,28 @@ package com.mcxtzhang.algorithm.offer;
 
 import java.util.Stack;
 
-/**
+/** 包含min函数的栈
  * Created by mcxtzhang on 2017/7/5.
  */
 public class Test21 {
 
     public static void main(String[] args) {
         CustomStack  customStack = new CustomStack();
-        customStack.min();
+        System.out.println(customStack.min());;
+        customStack.push(3);
+        System.out.println(customStack.min());;
+        customStack.push(4);
+        System.out.println(customStack.min());;
+        customStack.push(2);
+        System.out.println(customStack.min());;
+        customStack.push(1);
+        System.out.println(customStack.min());;
+        customStack.pop();
+        System.out.println(customStack.min());;
+        customStack.pop();
+        System.out.println(customStack.min());;
+        customStack.push(0);
+        System.out.println(customStack.min());;
     }
 
 
