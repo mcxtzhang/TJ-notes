@@ -4,14 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Intro: 复杂链表的复制 空间效率 ON
+ * Intro: 复杂链表的复制
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
  * Created:   2017/7/6.
  * History:
  */
-public class Test26 {
+public class Test26_2_best {
     public static void main(String[] args) {
         ComplexNode node1 = new ComplexNode();
         node1.value = "A";
@@ -56,33 +56,7 @@ public class Test26 {
 
     public static ComplexNode clone(ComplexNode root) {
         if (root == null) return null;
-        ComplexNode newRoot = new ComplexNode();
-        newRoot.value = root.value;
-        Map<ComplexNode, ComplexNode> addedNodeMap = new HashMap<>();
-        addedNodeMap.put(root, newRoot);
 
-        ComplexNode tempRoot = root, tempNewRoot = newRoot;
-        while (tempRoot.next != null) {
-            ComplexNode tobeAdd = addedNodeMap.get(tempRoot.next);
-            if (tobeAdd == null) {//新建 说明之前没有被添加过 需要创建
-                tobeAdd = new ComplexNode();
-                tobeAdd.value = tempRoot.next.value;
-            }
-            tempNewRoot.next = tobeAdd;
-            addedNodeMap.put(tempRoot.next, tobeAdd);
-            if (tempRoot.any != null) {
-                tobeAdd = addedNodeMap.get(tempRoot.any);
-                if (tobeAdd == null) {//新建 说明之前没有被添加过 需要创建
-                    tobeAdd = new ComplexNode();
-                    tobeAdd.value = tempRoot.any.value;
-                }
-                tempNewRoot.any = tobeAdd;
-                addedNodeMap.put(tempRoot.any, tobeAdd);
-            }
-            tempRoot = tempRoot.next;
-            tempNewRoot = tempNewRoot.next;
-        }
-        return newRoot;
 
     }
 }
