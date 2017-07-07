@@ -53,7 +53,35 @@ public class Test26_2_best {
 
     public static ComplexNode clone(ComplexNode root) {
         if (root == null) return null;
+        ComplexNode tempRoot = root;
+        //都链接起来
+        ComplexNode node;
+        while (tempRoot != null) {
+            node = new ComplexNode();
+            node.value = tempRoot.value;
+            node.next = tempRoot.next;
+            tempRoot.next = node;
+            tempRoot = tempRoot.next.next;
+        }
 
+        //复制any
+        tempRoot = root;
+        while (tempRoot != null) {
+            if (tempRoot.any != null) {
+                tempRoot.next.any = tempRoot.any.next;
+            }
+            tempRoot = tempRoot.next.next;
+        }
 
+        //拆成两条链
+        tempRoot = root;
+        ComplexNode newRoot = tempRoot.next;
+        while (tempRoot != null) {
+            tempRoot.next = tempRoot.next.next;
+            tempRoot = tempRoot.next;
+
+            newRoot.next = newRoot.next.next;
+        }
+        return newRoot;
     }
 }
