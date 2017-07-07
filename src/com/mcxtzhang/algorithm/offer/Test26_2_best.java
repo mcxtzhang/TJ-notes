@@ -75,13 +75,18 @@ public class Test26_2_best {
 
         //拆成两条链
         tempRoot = root;
+        ComplexNode newRootReturn = tempRoot.next;
         ComplexNode newRoot = tempRoot.next;
         while (tempRoot != null) {
             tempRoot.next = tempRoot.next.next;
             tempRoot = tempRoot.next;
 
-            newRoot.next = newRoot.next.next;
+            if (newRoot.next!=null){
+                newRoot.next = newRoot.next.next;
+            }
+
+            newRoot = newRoot.next;
         }
-        return newRoot;
+        return newRootReturn;
     }
 }
