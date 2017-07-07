@@ -1,10 +1,7 @@
 package com.mcxtzhang.algorithm.offer;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
- * Intro: 复杂链表的复制
+ * Intro: 复杂链表的复制 (不用额外空间 和时间 只修改指针)
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
