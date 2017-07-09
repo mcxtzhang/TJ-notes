@@ -42,24 +42,44 @@ public class Test27 {
         System.out.println(treeNode1);
 
         tree2DoubleLinkedList(treeNode1);
-        System.out.println(treeNode1);
+
+        TreeNode temp = treeNode1;
+        //System.out.println(treeNode1);
+
+        while (temp.left != null) {
+            temp = temp.left;
+        }
+
+        while (temp != null) {
+            System.out.println(temp.value);
+            temp = temp.right;
+        }
     }
 
     public static void tree2DoubleLinkedList(TreeNode root) {
         if (root == null) return;
-        tree2DoubleLinkedList(root.left);
 
         if (root.left != null) {
-            root.left.right = root;
-        } else {
+            tree2DoubleLinkedList(root.left);
 
+            TreeNode temp = root.left;
+            while (temp.right != null) {
+                temp = temp.right;
+            }
+            temp.right = root;
+            root.left = temp;
         }
 
         if (root.right != null) {
-            root.right.left = root;
-        }
+            tree2DoubleLinkedList(root.right);
 
-        tree2DoubleLinkedList(root.right);
+            TreeNode temp = root.right;
+            while (temp.left != null) {
+                temp = temp.left;
+            }
+            temp.left = root;
+            root.right = temp;
+        }
 
 
     }
