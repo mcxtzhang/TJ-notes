@@ -19,9 +19,10 @@ public class Test29_1 {
 
     public static void main(String[] args) {
         int[] src = new int[]{8, 3, 1, 4, 5, 9, 2};
-        int middleIndex = src.length / 2;
+/*        int middleIndex = src.length / 2;
         int num = midNum(src, 0, src.length - 1, middleIndex);
-        System.out.println("结果是:" + num);
+        System.out.println("结果是:" + num);*/
+        System.out.println("结果是:" + moreThanHalfNum(src));
         for (int i : src) {
             System.out.println(i);
         }
@@ -34,9 +35,32 @@ public class Test29_1 {
 
 
         src = new int[]{1, 2, 3, 2, 2, 2, 5, 4, 2};
-        middleIndex = src.length / 2;
+/*        middleIndex = src.length / 2;
         num = midNum(src, 0, src.length - 1, middleIndex);
-        System.out.println("结果是:" + num);
+        System.out.println("结果是:" + num);*/
+        System.out.println("结果是:" + moreThanHalfNum(src));
+    }
+
+    public static int moreThanHalfNum(int[] src) {
+        if (src == null || src.length == 0) return -1;
+        int begin = 0;
+        int end = src.length - 1;
+        int middle = src.length >> 1;
+
+        int index = midNum(src, begin, end, middle);
+        int result = src[index];
+
+        int count = 0;
+        for (int i : src) {
+            if (i == result) {
+                count++;
+            }
+        }
+        if (count * 2 > src.length) {
+            return result;
+        } else {
+            return -2;
+        }
     }
 
 
@@ -63,10 +87,21 @@ public class Test29_1 {
             }
         }
         src[left] = base;
-        if (left == begin) {
+/*        if (left == begin) {
             return src[middleIndex];
         } else if (left == middleIndex) {
             return src[left];
+        } else if (left > middleIndex) {
+            return midNum(src, begin, left, middleIndex);
+        } else {
+            return midNum(src, left, end, middleIndex);
+        }*/
+
+
+        if (left == begin) {
+            return middleIndex;
+        } else if (left == middleIndex) {
+            return left;
         } else if (left > middleIndex) {
             return midNum(src, begin, left, middleIndex);
         } else {
