@@ -17,6 +17,7 @@ import java.util.Map;
 public class Test35 {
     public static void main(String[] args) {
         func("abaccdeff");
+        func2("abaccdeff");
     }
 
     public static void func(String src) {
@@ -33,7 +34,25 @@ public class Test35 {
                 break;
             }
         }
+    }
 
+
+    public static void func2(String src) {
+        if (src == null || src.length() == 0) return;
+        //自定义HashMap的结构
+        int[] hashmap = new int[256];
+
+        for (int i = 0; i < src.length(); i++) {
+            hashmap[src.charAt(i)]++;
+        }
+
+        for (int i = 0; i < src.length(); i++) {
+            if (hashmap[src.charAt(i)] ==1){
+                System.out.println("是他 是他 是他 就是他:"+src.charAt(i));
+                break;
+            }
+        }
 
     }
+
 }
