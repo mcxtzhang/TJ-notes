@@ -1,0 +1,43 @@
+package com.mcxtzhang.algorithm.traditional;
+
+/**
+ * Intro: 二分查找
+ * Author: zhangxutong
+ * E-mail: mcxtzhang@163.com
+ * Home Page: http://blog.csdn.net/zxt0601
+ * Created:   2017/7/16.
+ * History:
+ */
+public class BinarySearch {
+
+    public static void main(String[] args) {
+        int[] src = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println(binarySearch(src, 1));
+        System.out.println(binarySearch(src, 2));
+        System.out.println(~binarySearch(src, 0));
+        src = new int[]{1, 3, 4};
+        System.out.println(binarySearch(src, 2));
+        src = new int[]{1, 2, 4};
+        System.out.println(binarySearch(src, 3));
+
+    }
+
+    public static int binarySearch(int[] src, int target) {
+        int left = 0;
+        int right = src.length - 1;
+        int middle = 0;
+        while (left <= right) {
+            middle = (left + right) >>> 1;
+            if (src[middle] == target) {
+                return middle;
+            } else if (src[middle] < target) {
+                left = middle + 1;
+            } else {
+                right = middle - 1;
+            }
+        }
+        return ~middle;
+
+    }
+
+}
