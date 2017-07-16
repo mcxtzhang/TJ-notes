@@ -1,5 +1,7 @@
 package com.mcxtzhang.algorithm.traditional;
 
+import com.mcxtzhang.algorithm.offer.QuickSort;
+
 /**
  * Intro: 二分查找
  * Author: zhangxutong
@@ -20,6 +22,9 @@ public class BinarySearch {
         src = new int[]{1, 2, 4};
         System.out.println(binarySearch(src, 3));
 
+        src = new int[]{9,10,555,661,30,69,10,1, 2, 4};
+        QuickSort.quickSort(src,0,src.length-1);
+        System.out.println(binarySearch(src,1));
     }
 
     public static int binarySearch(int[] src, int target) {
