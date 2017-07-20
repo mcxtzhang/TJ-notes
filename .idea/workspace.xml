@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test39.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test39.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test39.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -766,13 +766,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00048" summary="【Java】斐波那契数列">
-      <created>1498549540779</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1498549540779</updated>
-    </task>
     <task id="LOCAL-00049" summary="【Java】测试后台线程">
       <created>1498552927466</created>
       <option name="number" value="00049" />
@@ -1109,7 +1102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500452132778</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="【Java】二叉树的深度">
+      <created>1500519037585</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1500519037586</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1211,7 +1211,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】调整 数组顺序 使    奇数位于偶数前面" />
     <MESSAGE value="【Java】反转链表" />
     <MESSAGE value="【Java】合并两个排序的链表(第一遍做错了)" />
     <MESSAGE value="【Java】合并两个排序的链表(递归简化代码 666)" />
@@ -1236,7 +1235,8 @@
     <MESSAGE value="【Java】两个链表的第一个公共结点" />
     <MESSAGE value="【Java】数字在排序数组中出现的次数" />
     <MESSAGE value="【Java】线程，可以全局设置异常处理器，或者设置具体的异常处理器" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】线程，可以全局设置异常处理器，或者设置具体的异常处理器" />
+    <MESSAGE value="【Java】二叉树的深度" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】二叉树的深度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -36,7 +36,7 @@ public class Test39 {
         treeNode3.right = treeNode7;
 
 
-        System.out.println(treeDepth(treeNode1, 0));
+        System.out.println(treeDepth(treeNode1));
 
 
         treeNode1 = new TreeNode();
@@ -64,28 +64,14 @@ public class Test39 {
 
         treeNode5.left = treeNode7;
 
-        System.out.println(treeDepth(treeNode1, 0));
+        System.out.println(treeDepth(treeNode1));
 
     }
 
 
-    public static int treeDepth(TreeNode root, int depth) {
-        if (root == null) return depth;
-        return Math.max(1 + treeDepth(root.left, depth), 1 + treeDepth(root.right, depth));
+    public static int treeDepth(TreeNode root) {
+        if (root == null) return 0;
+        return Math.max(1 + treeDepth(root.left), 1 + treeDepth(root.right));
     }
 
-    private static int depth = 0;
-
-    public static void treeDepth2(TreeNode root) {
-        if (root == null) return;
-        if (root.left != null) {
-
-        }
-
-        if (root.right != null) {
-
-        }
-
-
-    }
 }
