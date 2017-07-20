@@ -17,7 +17,7 @@ import java.util.Map;
  * Created:   2017/7/20.
  * History:
  */
-public class Test39_3 {
+public class Test39_3_important {
     public static void main(String[] args) {
         TreeNode treeNode1 = new TreeNode();
         treeNode1.value = 8;
