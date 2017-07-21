@@ -93,9 +93,4 @@ public class Test39_3_important {
         return false;
     }
 
-    public static int treeDepth(TreeNode root) {
-        if (root == null) return 0;
-        return 1 + Math.max(treeDepth(root.left), treeDepth(root.right));
-    }
-
 }
