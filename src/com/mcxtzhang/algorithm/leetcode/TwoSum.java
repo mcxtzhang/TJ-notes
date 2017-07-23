@@ -14,7 +14,7 @@ import java.util.Map;
 public class TwoSum {
     public static void main(String[] args) {
         int[] sum = new int[]{3, 2, 4};
-        int[] ints = new Solution().twoSum(sum, 6);
+        int[] ints = new Solution().twoSum2(sum, 6);
         System.out.println(ints);
         for (int anInt : ints) {
             System.out.println(anInt);
@@ -41,6 +41,30 @@ public class TwoSum {
                         result[0] = integer;
                         result[1] = i;
                     }
+                    break;
+                }
+            }
+            return result;
+        }
+
+
+        public int[] twoSum2(int[] nums, int s) {
+            int[] result = new int[2];
+            if(nums == null || nums.length<2) return result;
+
+            Map<Integer,Integer> map = new HashMap<>();
+
+            for(int i=0;i<nums.length;i++){
+                map.put(nums[i],i);
+            }
+            int temp = 0;
+            Integer otherNum;
+            for(int i=0;i<nums.length;i++){
+                temp = s - nums[i];
+                otherNum = map.get(temp);
+                if(otherNum!=null && otherNum>i){
+                    result[0] = i;
+                    result[1] = otherNum;
                     break;
                 }
             }
