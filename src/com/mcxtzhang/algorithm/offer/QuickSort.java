@@ -22,30 +22,30 @@ public class QuickSort {
     /**
      * 快速排序
      */
-    public static void quickSort(int[] src, int left, int right) {
-        if (src == null || left < 0 || right < 0 || left >= src.length || right >= src.length || right - left <= 1)
+    public static void quickSort(int[] src, int begin, int end) {
+        if (src == null || begin < 0 || end < 0 || begin >= src.length || end >= src.length || begin >= end)
             return;
-        int temp = src[left];
-        int i = left;
-        int j = right;
-        while (i < j) {
-            while (temp < src[j] && i < j) {
-                j--;
+        int l = begin;
+        int r = end;
+        int temp = src[l];
+        while (l < r) {
+            while (l < r && temp <= src[r]) {
+                r--;
             }
-            if (temp > src[j]) {
-                src[i] = src[j];
-                i++;
+            if (l < r) {
+                src[l] = src[r];
+                l++;
             }
-            while (temp > src[i] && i < j) {
-                i++;
+            while (l < r && temp >= src[l]) {
+                l++;
             }
-            if (temp < src[i]) {
-                src[j] = src[i];
-                j--;
+            if (l < r) {
+                src[r] = src[l];
+                r--;
             }
         }
-        src[i] = temp;
-        quickSort(src, left, i - 1);
-        quickSort(src, i + 1, right);
+        src[l] = temp;
+        quickSort(src,begin,l-1);
+        quickSort(src,l+1,end);
     }
 }

@@ -27,9 +27,13 @@ import java.util.Map;
  */
 public class ThreeSum2 {
     public static void main(String[] args) {
-        //int[] nums = new int[]{-4, -1, -1, 0, 1, 2};
-        int[] nums = new int[]{-1, 0, 1, 2, -1, -4};
-        nums = new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6};
+        int[] nums = new int[]{-4, -1, -1, 0, 1, 2};
+        //int[] nums = new int[]{-1, 0, 1, 2, -1, -4};
+
+        //nums = new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6};
+        nums = new int[]{-1, 0, 1, 2, -1, -4};
+
+
         List<List<Integer>> lists = new Solution().threeSum(nums);
         System.out.println("结果是:");
         for (List<Integer> list : lists) {
@@ -63,7 +67,7 @@ public class ThreeSum2 {
                         toBeSort[0] = nums[i];
                         toBeSort[1] = nums[item.get(0)];
                         toBeSort[2] = nums[item.get(1)];
-                        sort(toBeSort);
+                        quickSort(toBeSort, 0, toBeSort.length - 1);
                         String tempKey = toBeSort[0] + "" + toBeSort[1] + "" + toBeSort[2];
                         isExist = map.get(tempKey);
                         if (!Boolean.TRUE.equals(isExist)) {
@@ -80,18 +84,34 @@ public class ThreeSum2 {
             return result;
         }
 
-        public static void sort(int[] nums) {
-            if (nums == null) return;
-            int temp;
-            for (int i = 0; i < nums.length; i++) {
-                for (int j = i + 1; j < nums.length; j++) {
-                    if (nums[i] > nums[j]) {
-                        temp = nums[j];
-                        nums[j] = nums[i];
-                        nums[i] = temp;
-                    }
+        /**
+         * 快速排序
+         */
+        public static void quickSort(int[] src, int begin, int end) {
+            if (src == null || begin < 0 || end < 0 || begin >= src.length || end >= src.length || begin >= end)
+                return;
+            int l = begin;
+            int r = end;
+            int temp = src[l];
+            while (l < r) {
+                while (l < r && temp <= src[r]) {
+                    r--;
+                }
+                if (l < r) {
+                    src[l] = src[r];
+                    l++;
+                }
+                while (l < r && temp >= src[l]) {
+                    l++;
+                }
+                if (l < r) {
+                    src[r] = src[l];
+                    r--;
                 }
             }
+            src[l] = temp;
+            quickSort(src,begin,l-1);
+            quickSort(src,l+1,end);
         }
 
 
