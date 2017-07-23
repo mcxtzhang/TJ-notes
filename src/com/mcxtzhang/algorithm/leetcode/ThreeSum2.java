@@ -29,7 +29,7 @@ public class ThreeSum2 {
     public static void main(String[] args) {
         //int[] nums = new int[]{-4, -1, -1, 0, 1, 2};
         int[] nums = new int[]{-1, 0, 1, 2, -1, -4};
-         nums = new int[]{-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6};
+        nums = new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6};
         List<List<Integer>> lists = new Solution().threeSum(nums);
         System.out.println("结果是:");
         for (List<Integer> list : lists) {
@@ -38,19 +38,19 @@ public class ThreeSum2 {
                 System.out.println(integer);
             }
         }
-        String a = 1 + "" + 2 + "" + 3;
+/*        String a = 1 + "" + 2 + "" + 3;
         String b = 1 + "" + 2 + "" + 3;
 
         System.out.println(a == b);
         System.out.println(a);
-        System.out.println(b);
+        System.out.println(b);*/
     }
 
     public static class Solution {
         public List<List<Integer>> threeSum(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
             if (nums == null || nums.length < 3) return result;
-            int[] temp = null;
+            List<List<Integer>> temp = null;
             List<Integer> toBeAddedList;
             int[] toBeSort = new int[3];
             Map<String, Boolean> map = new HashMap<>();
@@ -58,20 +58,22 @@ public class ThreeSum2 {
             Boolean isExist;
             for (int i = 0; i < nums.length; i++) {
                 temp = twoSum(nums, -nums[i], i);
-                if (temp != null) {
-                    toBeSort[0] = nums[i];
-                    toBeSort[1] = nums[temp[0]];
-                    toBeSort[2] = nums[temp[1]];
-                    sort(toBeSort);
-                    String tempKey = toBeSort[0] + "" + toBeSort[1] + "" + toBeSort[2];
-                    isExist = map.get(tempKey);
-                    if (!Boolean.TRUE.equals(isExist)) {
-                        map.put(tempKey, true);
-                        toBeAddedList = new ArrayList<>();
-                        toBeAddedList.add(toBeSort[0]);
-                        toBeAddedList.add(toBeSort[1]);
-                        toBeAddedList.add(toBeSort[2]);
-                        result.add(toBeAddedList);
+                if (temp != null && !temp.isEmpty()) {
+                    for (List<Integer> item : temp) {
+                        toBeSort[0] = nums[i];
+                        toBeSort[1] = nums[item.get(0)];
+                        toBeSort[2] = nums[item.get(1)];
+                        sort(toBeSort);
+                        String tempKey = toBeSort[0] + "" + toBeSort[1] + "" + toBeSort[2];
+                        isExist = map.get(tempKey);
+                        if (!Boolean.TRUE.equals(isExist)) {
+                            map.put(tempKey, true);
+                            toBeAddedList = new ArrayList<>();
+                            toBeAddedList.add(toBeSort[0]);
+                            toBeAddedList.add(toBeSort[1]);
+                            toBeAddedList.add(toBeSort[2]);
+                            result.add(toBeAddedList);
+                        }
                     }
                 }
             }
@@ -93,9 +95,10 @@ public class ThreeSum2 {
         }
 
 
-        public static int[] twoSum(int[] nums, int s, int ignoreIndex) {
-            int[] result = new int[2];
-            if (nums == null || nums.length < 2) return null;
+        public static List<List<Integer>> twoSum(int[] nums, int s, int ignoreIndex) {
+            List<List<Integer>> result = new ArrayList<>();
+            List<Integer> ontResult;
+            if (nums == null || nums.length < 2) return result;
 
             Map<Integer, Integer> map = new HashMap<>();
 
@@ -111,13 +114,14 @@ public class ThreeSum2 {
                     temp = s - nums[i];
                     otherNum = map.get(temp);
                     if (otherNum != null && otherNum > i) {
-                        result[0] = i;
-                        result[1] = otherNum;
-                        return result;
+                        ontResult = new ArrayList<>();
+                        ontResult.add(i);
+                        ontResult.add(otherNum);
+                        result.add(ontResult);
                     }
                 }
             }
-            return null;
+            return result;
         }
     }
 }
