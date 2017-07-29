@@ -13,7 +13,7 @@ package com.mcxtzhang.algorithm.offer;
  */
 public class Test43 {
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
 
     }
 
@@ -27,7 +27,7 @@ public class Test43 {
                 return i + sumKCount(n - 1);
             }
         }
-    }
+    }*/
 
 
 }
