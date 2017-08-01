@@ -25,7 +25,11 @@ public class ReverseInteger {
                 sb.append(x % 10);
                 x = x / 10;
             }
-            return Integer.parseInt(sb.toString());
+            try {
+                return Integer.parseInt(sb.toString());
+            }catch (NumberFormatException e){
+                return 0;
+            }
         }
     }
 }
