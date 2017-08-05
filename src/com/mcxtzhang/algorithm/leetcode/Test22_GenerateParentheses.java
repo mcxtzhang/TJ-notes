@@ -26,8 +26,62 @@ import java.util.Stack;
  */
 public class Test22_GenerateParentheses {
     public static void main(String[] args) {
-        new Solution().generateParenthesis(3);
+        //new Solution2().generateParenthesis(1);
+        //new Solution2().generateParenthesis(2);
+        new Solution2().generateParenthesis(3);
     }
+
+    //思路 第 1 ,2n 位 一定是 (  )
+    //初始，maxPairCount = n ,toPairCount = 0
+    //掏出左边的时候， 判断 toPairCount 不能大于 maxPairCount ， 才append ，同时 toPairCount+1，
+    //掏出右边的时候，判断 toPairCount 不能小于1，才append，同时toPairCount-1,
+    //每组成一对(成功的掏出右边)，maxPairCount--.   toPaireCount--
+    public static class Solution2 {
+        public static final char[] SOURCE = new char[]{'(', ')'};
+
+        public List<String> generateParenthesis(int n) {
+            List<String> resutl = new ArrayList<>();
+            if (n <= 0) return resutl;
+            int maxPairCount = n;//
+            int toPairCount = 0;
+            generateString(resutl, new StringBuilder(), n * 2, 1, maxPairCount, toPairCount);
+            return resutl;
+        }
+
+        public void generateString(List<String> result, StringBuilder sb, int max, int n, int maxPairCount, int toPairCount) {
+            if (n > max) {
+                result.add(sb.toString());
+                return;
+            }
+            for (char c : SOURCE) {
+                if (c == '(') {
+                    if (toPairCount < maxPairCount || n == 1) {
+                        sb.append(c);
+                        toPairCount++;
+                        generateString(result, sb, max, n + 1, maxPairCount, toPairCount);
+                        sb.deleteCharAt(sb.length() - 1);
+                        toPairCount--;
+                    } else {
+
+                    }
+                } else {
+                    if ((toPairCount > 0 && n != 1) || n == max) {
+                        sb.append(c);
+                        toPairCount--;
+                        maxPairCount--;
+                        generateString(result, sb, max, n + 1, maxPairCount, toPairCount);
+                        sb.deleteCharAt(sb.length() - 1);
+                        toPairCount++;
+                    } else {
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
 
     //stupid method, generate all  parentheses , output valid.  can not pass
     public static class Solution {
