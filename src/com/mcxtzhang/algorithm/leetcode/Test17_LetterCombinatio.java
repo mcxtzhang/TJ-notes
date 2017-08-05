@@ -24,12 +24,112 @@ import java.util.Map;
  */
 public class Test17_LetterCombinatio {
     public static void main(String[] args) {
-        List<String> strings = new Solution().letterCombinations("234");
+        List<String> strings = new Solution3().letterCombinations("234");
         for (String string : strings) {
             System.out.println(string);
         }
     }
 
+
+    public static class Solution3 {
+        public List<String> letterCombinations(String digits) {
+            List<String> result = new ArrayList<>();
+            if (digits == null || digits.length() < 0) return result;
+            int length = digits.length();
+            //int intput = 0;
+            char c;
+            for (int i = 0; i < length; i++) {
+                c = digits.charAt(i);
+                if (c < '2' || c > '9') {
+                    return result;
+                } else {
+                    //intput = intput * 10 + c - '0';
+                }
+            }
+            appendChar(digits, 0, result, new StringBuilder());
+
+            return result;
+        }
+
+        public void appendChar(String num, int start, List<String> result, StringBuilder sb) {
+            if (num == null || num.length() < 1 || start >= num.length()) return;
+            String[] strings = map.get(num.charAt(start));
+            for (String string : strings) {
+                sb.append(string);
+                if (num.length() - 1 == start) {
+                    result.add(sb.toString());
+                } else {
+                    appendChar(num, start + 1, result, sb);
+                }
+                sb.deleteCharAt(sb.length() - 1);
+            }
+        }
+
+        public static final Map<Character, String[]> map = new HashMap<>();
+
+        static {
+            map.put('2', new String[]{"a", "b", "c"});
+            map.put('3', new String[]{"d", "e", "f"});
+            map.put('4', new String[]{"g", "h", "i"});
+            map.put('5', new String[]{"j", "k", "l"});
+            map.put('6', new String[]{"m", "n", "o"});
+            map.put('7', new String[]{"p", "q", "r", "s"});
+            map.put('8', new String[]{"t", "u", "v"});
+            map.put('9', new String[]{"w", "x", "y", "z"});
+        }
+    }
+
+    //long beats 7%
+    public static class Solution2 {
+        public List<String> letterCombinations(String digits) {
+            List<String> result = new ArrayList<>();
+            if (digits == null || digits.length() < 0) return result;
+            int length = digits.length();
+            //int intput = 0;
+            char c;
+            for (int i = 0; i < length; i++) {
+                c = digits.charAt(i);
+                if (c < '2' || c > '9') {
+                    return result;
+                } else {
+                    //intput = intput * 10 + c - '0';
+                }
+            }
+            appendChar(digits, result, new StringBuilder());
+
+            return result;
+        }
+
+        public void appendChar(String num, List<String> result, StringBuilder sb) {
+            if (num == null || num.length() < 1) return;
+            String[] strings = map.get(num.charAt(0));
+            for (String string : strings) {
+                sb.append(string);
+                if (num.length() == 1) {
+                    result.add(sb.toString());
+                } else {
+                    appendChar(num.substring(1), result, sb);
+                }
+                sb.deleteCharAt(sb.length() - 1);
+            }
+        }
+
+        public static final Map<Character, String[]> map = new HashMap<>();
+
+        static {
+            map.put('2', new String[]{"a", "b", "c"});
+            map.put('3', new String[]{"d", "e", "f"});
+            map.put('4', new String[]{"g", "h", "i"});
+            map.put('5', new String[]{"j", "k", "l"});
+            map.put('6', new String[]{"m", "n", "o"});
+            map.put('7', new String[]{"p", "q", "r", "s"});
+            map.put('8', new String[]{"t", "u", "v"});
+            map.put('9', new String[]{"w", "x", "y", "z"});
+        }
+    }
+
+
+    //逆序了 不满足
     public static class Solution {
         public List<String> letterCombinations(String digits) {
             List<String> result = new ArrayList<>();
