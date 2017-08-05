@@ -28,8 +28,37 @@ public class Test22_GenerateParentheses {
     public static void main(String[] args) {
         //new Solution2().generateParenthesis(1);
         //new Solution2().generateParenthesis(2);
-        new Solution2().generateParenthesis(3);
+        new Solution3().generateParenthesis(3);
     }
+
+
+    //这种思路是  根据 左右需要add的括号数量。 左括号三个，右括号三个。
+    //且每一次add， 相应数量-1.
+    //但是 左边不能大于右边，否则就是错误的，
+    public static class Solution3 {
+
+        public List<String> generateParenthesis(int n) {
+            List<String> resutl = new ArrayList<>();
+            if (n <= 0) return resutl;
+            generatePair(2, 3, new StringBuilder().append('('), resutl);
+            return resutl;
+        }
+
+        public void generatePair(int leftToBeAdd, int rightToBeAdd, StringBuilder sb, List<String> result) {
+            if (leftToBeAdd > rightToBeAdd || leftToBeAdd < 0 || rightToBeAdd < 0) return;
+            if (leftToBeAdd == 0 && rightToBeAdd == 0) {
+                result.add(sb.toString());
+                return;
+            }
+            generatePair(leftToBeAdd - 1, rightToBeAdd, sb.append('('), result);
+            sb.deleteCharAt(sb.length() - 1);
+            generatePair(leftToBeAdd, rightToBeAdd - 1, sb.append(')'), result);
+            sb.deleteCharAt(sb.length() - 1);
+        }
+
+
+    }
+
 
     //思路 第 1 ,2n 位 一定是 (  )
     //初始，maxPairCount = n ,toPairCount = 0
