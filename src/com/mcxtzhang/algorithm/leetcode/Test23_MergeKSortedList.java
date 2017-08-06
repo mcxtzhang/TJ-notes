@@ -20,10 +20,69 @@ public class Test23_MergeKSortedList {
         node1.next = node3;
         node2.next = node4;
 
-        ListNode listNode = new Solution2().mergeKLists(new ListNode[]{node1, node2});
+        ListNode listNode = new Solution3().mergeKLists(new ListNode[]{node1, node2});
         System.out.println(listNode);
 
 
+    }
+
+    //分治思想
+    public static class Solution3 {
+        public ListNode mergeKLists(ListNode[] lists) {
+            if (null == lists || lists.length < 1) return null;
+            return mergeList(lists, 0, lists.length - 1);
+        }
+
+        public ListNode mergeList(ListNode[] lists, int begin, int end) {
+            if (begin > end) return null;
+            if (begin < end) {
+                int m = (end + begin) / 2;
+                return merge2List2(mergeList(lists, begin, m), mergeList(lists, m + 1, end));
+            } else {
+                return lists[begin];
+            }
+
+        }
+
+        //分治进行到底
+        public ListNode merge2List2(ListNode l1, ListNode l2) {
+            if (l1 == null) return l2;
+            if (l2 == null) return l1;
+            if (l1.val < l2.val) {
+                l1.next = merge2List2(l1.next, l2);
+                return l1;
+            } else {
+                l2.next = merge2List2(l1, l2.next);
+                return l2;
+            }
+        }
+
+        //普通方法的 合并两个list
+        public ListNode merge2List(ListNode l1, ListNode l2) {
+            ListNode result = null, tail = null;
+            while (l1 != null || l2 != null) {
+                if ((l1 != null && l2 != null && l1.val < l2.val) || (l1 != null && l2 == null)) {
+                    if (result == null) {
+                        result = l1;
+                        tail = result;
+                    } else {
+                        tail.next = l1;
+                        tail = tail.next;
+                    }
+                    l1 = l1.next;
+                } else {
+                    if (result == null) {
+                        result = l2;
+                        tail = result;
+                    } else {
+                        tail.next = l2;
+                        tail = tail.next;
+                    }
+                    l2 = l2.next;
+                }
+            }
+            return result;
+        }
     }
 
 
