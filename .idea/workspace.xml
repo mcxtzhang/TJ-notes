@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test26_RemoveDuplicatesFromSortedArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test23_MergeKSortedList.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test23_MergeKSortedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test23_MergeKSortedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test23_MergeKSortedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test23_MergeKSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="5" column="107" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test26_RemoveDuplicatesFromSortedArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test26_RemoveDuplicatesFromSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -159,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test27.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test26_2_best.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test29_1.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test28.java" />
@@ -210,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test19_.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test22_GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test23_MergeKSortedList.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test26_RemoveDuplicatesFromSortedArray.java" />
       </list>
     </option>
   </component>
@@ -799,13 +809,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00073" summary="【Java】栈的压入、弹出序列">
-      <created>1499236584169</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1499236584169</updated>
-    </task>
     <task id="LOCAL-00074" summary="【Java】从上往下打印二叉树（广度遍历)">
       <created>1499237086705</created>
       <option name="number" value="00074" />
@@ -1142,7 +1145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501989294525</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="【Java】leet code  Test 22. Generate Parentheses  利用分治法来搞定">
+      <created>1501991015182</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1501991015182</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1173,7 +1183,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1244,7 +1254,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】二分查找" />
     <MESSAGE value="【Java】测试 join() 和 interrupted()" />
     <MESSAGE value="【Java】两个链表的第一个公共结点" />
     <MESSAGE value="【Java】数字在排序数组中出现的次数" />
@@ -1269,7 +1278,8 @@
     <MESSAGE value="【Java】leet code  Test19.Remove Nth Node From End of List" />
     <MESSAGE value="【Java】leet code  Test 22. Generate Parentheses" />
     <MESSAGE value="【Java】leet code  Test 22. Generate Parentheses  掏出最小堆来存，然后~ 先将所有根节点入堆，每次从堆里取出一个元素。即为当前最小元素，加入结果后， 继续取出当前元素的下一个节点（如果有）入堆。" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】leet code  Test 22. Generate Parentheses  掏出最小堆来存，然后~ 先将所有根节点入堆，每次从堆里取出一个元素。即为当前最小元素，加入结果后， 继续取出当前元素的下一个节点（如果有）入堆。" />
+    <MESSAGE value="【Java】leet code  Test 22. Generate Parentheses  利用分治法来搞定" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】leet code  Test 22. Generate Parentheses  利用分治法来搞定" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1620,13 +1630,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Math.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/Executors.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/RejectedExecutionHandler.java" />
@@ -1904,6 +1907,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="107" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test26_RemoveDuplicatesFromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding />
         </state>
       </provider>
