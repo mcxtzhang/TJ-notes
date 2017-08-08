@@ -13,6 +13,20 @@ public class ReverseSentence {
         String src = "Today is lucky day";
         char[] chars = reverseSentence(src.toCharArray());
         System.out.println(chars);
+
+        src = "       ";
+        chars = reverseSentence(src.toCharArray());
+        System.out.println(chars);
+
+        src = "";
+        chars = reverseSentence(src.toCharArray());
+        System.out.println(chars);
+        src = " a";
+        chars = reverseSentence(src.toCharArray());
+        System.out.println(chars);
+        src = " a ";
+        chars = reverseSentence(src.toCharArray());
+        System.out.println(chars);
     }
 
     static char[] reverseSentence(char[] sentence) {
@@ -37,7 +51,7 @@ public class ReverseSentence {
     }
 
     static char[] reverse(char[] sentence, int begin, int end) {
-        if (sentence == null || sentence.length < 1 || begin > end || begin >= sentence.length || end >= sentence.length)
+        if (sentence == null || sentence.length < 1 || begin > end || begin >= sentence.length || end >= sentence.length || begin<0 || end<0)
             return sentence;
         int i = begin;
         int j = end;
