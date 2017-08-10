@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test42_TrappingRainWater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test46_Permutations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,36 +36,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/MergeSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,11 +96,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test42_TrappingRainWater.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test42_TrappingRainWater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test42_TrappingRainWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="350">
               <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="38" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test46_Permutations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test46_Permutations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="5236" column="35" lean-forward="false" selection-start-line="5236" selection-start-column="35" selection-end-line="5236" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -179,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/JoinTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Test671.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test37.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test38.java" />
@@ -230,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test38_CountAndSay.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test41_FirstMissingPositive.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test42_TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test46_Permutations.java" />
       </list>
     </option>
   </component>
@@ -392,7 +384,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/String.class&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/LinkedList.class&#10;HashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/Integer.class&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Object.java&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream&#10;Boolean&#9;PSI&#9;JAVA://java.lang.Boolean&#10;Concurh&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;COncurrentMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentMap&#10;BlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;PriorityQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/PriorityQueue.java&#10;Colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;System&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/System.java&#10;CLass&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;HashMa&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;BUfferRea&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;StringBU&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LInkedLI&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Co&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Coll&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;PriorityQu&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java&#10;LinkedLi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;LinkedLIst&#9;PSI&#9;JAVA://java.util.LinkedList&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/String.class&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/LinkedList.class&#10;HashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/Integer.class&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Object.java&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream&#10;Boolean&#9;PSI&#9;JAVA://java.lang.Boolean&#10;Concurh&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;COncurrentMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentMap&#10;BlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;PriorityQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/PriorityQueue.java&#10;Colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;System&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/System.java&#10;CLass&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;HashMa&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;BUfferRea&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;StringBU&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LInkedLI&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Co&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Coll&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;PriorityQu&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java&#10;LinkedLi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;LinkedLIst&#9;PSI&#9;JAVA://java.util.LinkedList&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -749,13 +741,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00085" summary="【Java】最小的k个数&#10;       * 输入n个整数，找出其中最小的k个数、&#10;       * 例如，输入{4,5,1,6,2,7,3,8}">
-      <created>1499848730659</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1499848730659</updated>
-    </task>
     <task id="LOCAL-00086" summary="【Java】连续子数组的最大和&#10;       * &lt;p&gt;&#10;       * 输入一个整形数组，数组里有正数也有负数。&#10;       * 数组中一个或连续的多个数组组成一个子数组。&#10;       * 求所有子数组的和的最大值。&#10;       * 要求时间复杂为O n">
       <created>1499914067594</created>
       <option name="number" value="00086" />
@@ -1092,7 +1077,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502269908910</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="【Java】Test42_TrappingRainWater">
+      <created>1502347136502</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1502347136503</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1106,7 +1098,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1123,13 +1115,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19829424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19829424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3392857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3392857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1155,7 +1147,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3392857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3392857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32700893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1166,7 +1158,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4140625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19829424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1194,7 +1186,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】leetcode15 threeSum" />
     <MESSAGE value="【Java】快速排序修正m" />
     <MESSAGE value="【Java】三个数字的和，先将数组排序 再查找" />
     <MESSAGE value="【Java】翻转单词顺序&#10;       * &quot;I am a student.&quot;-&gt;&quot;student. a am I&quot;" />
@@ -1219,7 +1210,8 @@
     <MESSAGE value="【Java】test36.Valid Sudoku" />
     <MESSAGE value="【Java】test38.CountAndSay" />
     <MESSAGE value="【Java】Test41_FirstMissingPositive" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test41_FirstMissingPositive" />
+    <MESSAGE value="【Java】Test42_TrappingRainWater" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test42_TrappingRainWater" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1654,41 +1646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ThreeSum2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="72" column="50" lean-forward="false" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ThreeSum3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test41.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -2029,9 +1986,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test42_TrappingRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="350">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="38" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1061">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="5236" column="35" lean-forward="false" selection-start-line="5236" selection-start-column="35" selection-end-line="5236" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test46_Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
