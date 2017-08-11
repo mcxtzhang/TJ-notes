@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test49_GroupAnagrams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test50_pow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,16 +36,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Test41_FirstMissingPositive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test41_FirstMissingPositive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test42_TrappingRainWater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test42_TrappingRainWater.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test49_GroupAnagrams.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test49_GroupAnagrams.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test49_GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="597">
@@ -104,6 +94,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test50_pow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test50_pow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test37.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test38.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Test672.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test39.java" />
@@ -248,6 +247,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test42_TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test48_RotateImage.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test49_GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test50_pow.java" />
       </list>
     </option>
   </component>
@@ -431,27 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test49_GroupAnagrams">
-    <configuration default="false" name="ReverseSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mcxtzhang.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.algorithm.ReverseSentence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TJ-notes" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Test50_pow">
     <configuration default="false" name="Test36_ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -520,6 +500,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.algorithm.leetcode.Test49_GroupAnagrams" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TJ-notes" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test50_pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mcxtzhang.algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.algorithm.leetcode.Test50_pow" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -737,19 +737,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReverseSentence" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test36_ValidSudoku" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test41_FirstMissingPositive" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test42_TrappingRainWater" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test49_GroupAnagrams" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test36_ValidSudoku" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test41_FirstMissingPositive" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test42_TrappingRainWater" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test49_GroupAnagrams" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test50_pow" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test49_GroupAnagrams" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test42_TrappingRainWater" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test41_FirstMissingPositive" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test36_ValidSudoku" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReverseSentence" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test50_pow" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test49_GroupAnagrams" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test42_TrappingRainWater" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test41_FirstMissingPositive" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test36_ValidSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -766,13 +766,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
-    </task>
-    <task id="LOCAL-00086" summary="【Java】连续子数组的最大和&#10;       * &lt;p&gt;&#10;       * 输入一个整形数组，数组里有正数也有负数。&#10;       * 数组中一个或连续的多个数组组成一个子数组。&#10;       * 求所有子数组的和的最大值。&#10;       * 要求时间复杂为O n">
-      <created>1499914067594</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1499914067595</updated>
     </task>
     <task id="LOCAL-00087" summary="【Java】第一个只出现一次的字符&#10;       * &lt;p&gt;&#10;       * 题目:在字符串中找出第一个只出现一次的字符。&#10;       * 如输入&quot;abaccdeff&quot; 输出b">
       <created>1499918673124</created>
@@ -1110,7 +1103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502375740173</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="【Java】Test49_GroupAnagrams">
+      <created>1502464502904</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1502464502904</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1136,7 +1136,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870535" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4140625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4140625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1212,7 +1212,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】快速排序修正m" />
     <MESSAGE value="【Java】三个数字的和，先将数组排序 再查找" />
     <MESSAGE value="【Java】翻转单词顺序&#10;       * &quot;I am a student.&quot;-&gt;&quot;student. a am I&quot;" />
     <MESSAGE value="【Java】字符串的左旋转操作是把 字符串前面的若干个字符转移到字符串的尾部。&#10;       * 请定义一个函数实现字符串左旋转操作的功能。&#10;       * 比如输入字符串&quot;abcdefg&quot;和数字2.得到&quot;cdefgab&quot;" />
@@ -1237,7 +1236,8 @@
     <MESSAGE value="【Java】test38.CountAndSay" />
     <MESSAGE value="【Java】Test41_FirstMissingPositive" />
     <MESSAGE value="【Java】Test48_RotateImage" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test48_RotateImage" />
+    <MESSAGE value="【Java】Test49_GroupAnagrams" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test49_GroupAnagrams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1668,8 +1668,14 @@
           <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test50_pow.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="202" />
+      <option name="time" value="204" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1678,13 +1684,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test43.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test42_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -2023,6 +2022,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test50_pow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
