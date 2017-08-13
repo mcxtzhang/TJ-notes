@@ -38,8 +38,11 @@ public class Test16 {
         }
 
         System.out.println(head);
-        System.out.println(reverseLinkedList(head));
-        System.out.println(reverseLinkedList(null));
+        //System.out.println(reverseLinkedList(head));
+        //System.out.println(reverseLinkedList(null));
+        //offer书上的方法
+        System.out.println(new Solution().reverseList(head));
+        System.out.println(new Solution().reverseList(null));
 
         head = null;
         for (int i = 1; i <= 1; i++) {
@@ -54,8 +57,13 @@ public class Test16 {
                 temp.next = node;
             }
         }
-        System.out.println(head);
-        System.out.println(reverseLinkedList(head));
+/*        System.out.println(head);
+        System.out.println(reverseLinkedList(head));*/
+
+        //offer书上的方法
+        System.out.println(new Solution().reverseList(head));
+        System.out.println(new Solution().reverseList(null));
+
     }
 
 
@@ -70,5 +78,31 @@ public class Test16 {
             head = next;
         }
         return head;
+    }
+
+
+
+    public static class Solution {
+        //一个指针保存前一个，一个指针保存现在。 另外的指针做临时的下一个，以及结果
+        public Node reverseList(Node head) {
+            if (head == null || head.next == null) return head;
+            Node pre = head;
+            Node now = head.next;
+            pre.next = null;
+            Node result = null;
+
+            while (now != null) {
+                result = now.next;
+                now.next = pre;
+                pre = now;
+                if (result != null) {
+                    now = result;
+                } else {
+                    result = now;
+                    now = null;
+                }
+            }
+            return result;
+        }
     }
 }
