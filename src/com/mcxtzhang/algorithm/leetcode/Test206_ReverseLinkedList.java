@@ -27,6 +27,25 @@ public class Test206_ReverseLinkedList {
         }
     }
 
+    public class Solution2 {
+        //每一个都将原head的现在的下一个node移到 现在的head处
+        //以前的head 是现在的tail，所以heade。next 为null ，结束
+        public ListNode reverseList(ListNode head) {
+            if (head == null || head.next == null) return head;
+            ListNode result = head;
+            ListNode temp = null;
+            while (head.next != null) {
+                temp = result;
+                result = head.next;
+                head.next = head.next.next;
+                result.next = temp;
+            }
+            return result;
+        }
+    }
+
+
+    //beats 27%
     public class Solution {
         //一个指针保存前一个，一个指针保存现在。 另外的指针做临时的下一个，以及结果
         public ListNode reverseList(ListNode head) {

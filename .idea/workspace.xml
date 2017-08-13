@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test206_ReverseLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test55_Jump_Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test16.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test16.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test206_ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test206_ReverseLinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +81,8 @@
       <file leaf-file-name="Test206_ReverseLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test206_ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="354">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="e#505#506#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
@@ -96,7 +94,7 @@
       <file leaf-file-name="Test16.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="804">
               <caret line="90" column="12" lean-forward="true" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="28" />
               <folding />
             </state>
@@ -772,13 +770,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00087" summary="【Java】第一个只出现一次的字符&#10;       * &lt;p&gt;&#10;       * 题目:在字符串中找出第一个只出现一次的字符。&#10;       * 如输入&quot;abaccdeff&quot; 输出b">
-      <created>1499918673124</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1499918673124</updated>
-    </task>
     <task id="LOCAL-00088" summary="【Java】Test35 : 第一个只出现一次的字符&#10;       * &lt;p&gt;&#10;       * 题目:在字符串中找出第一个只出现一次的字符。&#10;       * 如输入&quot;abaccdeff&quot; 输出b">
       <created>1499925286850</created>
       <option name="number" value="00088" />
@@ -1115,7 +1106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502464502904</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="【Java】Test206 反转链表：&#10;//一个指针保存前一个，一个指针保存现在。 另外的指针做临时的下一个，以及结果">
+      <created>1502634473014</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1502634473014</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1217,7 +1215,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】三个数字的和，先将数组排序 再查找" />
     <MESSAGE value="【Java】翻转单词顺序&#10;       * &quot;I am a student.&quot;-&gt;&quot;student. a am I&quot;" />
     <MESSAGE value="【Java】字符串的左旋转操作是把 字符串前面的若干个字符转移到字符串的尾部。&#10;       * 请定义一个函数实现字符串左旋转操作的功能。&#10;       * 比如输入字符串&quot;abcdefg&quot;和数字2.得到&quot;cdefgab&quot;" />
     <MESSAGE value="【Java】48 不能被继承的类" />
@@ -1242,7 +1239,8 @@
     <MESSAGE value="【Java】Test41_FirstMissingPositive" />
     <MESSAGE value="【Java】Test48_RotateImage" />
     <MESSAGE value="【Java】Test49_GroupAnagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test49_GroupAnagrams" />
+    <MESSAGE value="【Java】Test206 反转链表：&#10;//一个指针保存前一个，一个指针保存现在。 另外的指针做临时的下一个，以及结果" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test206 反转链表：&#10;//一个指针保存前一个，一个指针保存现在。 另外的指针做临时的下一个，以及结果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2116,7 +2114,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test16.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="804">
           <caret line="90" column="12" lean-forward="true" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="28" />
           <folding />
         </state>
@@ -2124,8 +2122,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test206_ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="354">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="e#505#506#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
