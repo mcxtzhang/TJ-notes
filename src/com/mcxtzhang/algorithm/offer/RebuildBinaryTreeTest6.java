@@ -44,16 +44,65 @@ public class RebuildBinaryTreeTest6 {
         System.out.println(pre.subList(3, pre.size()));*/
         TreeNode root = rebuild(pre, middle);
 
+        int[] p = new int[]{1, 2, 4, 7, 3, 5, 6, 8};
+        int[] m = new int[]{4, 7, 2, 1, 5, 3, 8, 6};
+/*          p = new int[]{1, 2, 3};
+          m = new int[]{2,1,3};*/
+        TreeNode root2 = rebuild3(p, m);
+
 
         DepthFirstTravesal.dfs(root);
         System.out.println();
+        DepthFirstTravesal.dfs(root2);
+        System.out.println();
         dfs2(root);
         System.out.println();
+        dfs2(root2);
+        System.out.println();
+
         dfs3(root);
+        System.out.println();
+        dfs3(root2);
 
         System.out.println("广度优先遍历：");
         BreadthFirstSearch.bfs(root);
+        System.out.println();
+        BreadthFirstSearch.bfs(root2);
+
+
     }
+
+    ///20170814
+    public static TreeNode rebuild3(int[] pre, int[] middle) {
+        if (pre == null || middle == null) return null;
+        return rebuild3(pre, 0, pre.length - 1, middle, 0, middle.length - 1);
+    }
+
+    public static TreeNode rebuild3(int[] pre, int pBegin, int pEnd, int[] middle, int mBegin, int mEnd) {
+        if (pre == null || middle == null || pBegin < 0 || pEnd >= pre.length || pBegin > pEnd
+                || mBegin < 0 || mEnd >= middle.length || mBegin > mEnd) {
+            return null;
+        }
+
+        int index = search(middle, pre[pBegin]);
+        if (index < 0) return null;
+        TreeNode root = new TreeNode();
+        root.value = pre[pBegin];//根
+        int leftCount = index - mBegin;
+        root.left = rebuild3(pre, pBegin + 1, pBegin + leftCount, middle, mBegin, index - 1);
+        root.right = rebuild3(pre, pBegin + leftCount + 1, pEnd, middle, index + 1, mEnd);
+        return root;
+    }
+
+    private static int search(int[] nums,int key){
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i]==key){
+                return i;
+            }
+        }
+        return -1;
+    }
+
 
     public static TreeNode rebuild(List<Integer> pre, List<Integer> middle) {
         if (pre == null || pre.isEmpty() || middle == null || middle.isEmpty())
