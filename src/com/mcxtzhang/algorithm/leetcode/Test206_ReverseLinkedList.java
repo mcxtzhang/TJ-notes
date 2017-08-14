@@ -27,6 +27,29 @@ public class Test206_ReverseLinkedList {
         }
     }
 
+    //递归 ok
+    public class Solution3 {
+
+        public ListNode reverseList(ListNode head) {
+            if (head == null || head.next == null) return head;
+            return reverseSegment(null, head);
+        }
+
+
+        public ListNode reverseSegment(ListNode left, ListNode right) {
+            if (right == null) return null;
+            if (right.next == null) {//根节点
+                right.next = left;
+                return right;
+            } else {
+                ListNode listNode = reverseSegment(right, right.next);
+                right.next = left;
+                return listNode;
+            }
+
+        }
+    }
+
     public class Solution2 {
         //每一个都将原head的现在的下一个node移到 现在的head处
         //以前的head 是现在的tail，所以heade。next 为null ，结束
