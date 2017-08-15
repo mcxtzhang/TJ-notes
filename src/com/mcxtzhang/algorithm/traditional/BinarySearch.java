@@ -14,14 +14,14 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] src = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        System.out.println(binarySearch(src, 1));
+/*        System.out.println(binarySearch(src, 1));
         System.out.println(binartSearchFinal(src, 1));
 
         System.out.println(binarySearch(src, 2));
         System.out.println(binartSearchFinal(src, 2));
 
         System.out.println(~binarySearch(src, 0));
-        System.out.println(~binartSearchFinal(src, 0));
+        System.out.println(~binartSearchFinal(src, 0));*/
 
         src = new int[]{1, 3, 4};
         System.out.println(~binarySearch(src, 2));
