@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test24_SwapNodesinPairs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test27_RemoveElement.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test27_ImplementStrStr.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test28_ImplementStrStr.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test24_SwapNodesinPairs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test24_SwapNodesinPairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test24_SwapNodesinPairs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
@@ -81,6 +82,16 @@
                 <element signature="e#626#627#0" expanded="true" />
                 <element signature="e#657#658#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test27_RemoveElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test27_RemoveElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test42.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test42_2.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test47.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test48.java" />
@@ -182,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/ListTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test24_SwapNodesinPairs.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test27_RemoveElement.java" />
       </list>
     </option>
   </component>
@@ -850,13 +861,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00096" summary="【Java】线程，可以全局设置异常处理器，或者设置具体的异常处理器">
-      <created>1500452132777</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1500452132778</updated>
-    </task>
     <task id="LOCAL-00097" summary="【Java】二叉树的深度">
       <created>1500519037585</created>
       <option name="number" value="00097" />
@@ -1193,7 +1197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502791263903</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="【Java】 Test24_SwapNodesinPairs">
+      <created>1502801126327</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1502801126328</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1295,7 +1306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】leet code  Test17. Letter Combinations of a Phone Number" />
     <MESSAGE value="【Java】leet code  Test19.Remove Nth Node From End of List" />
     <MESSAGE value="【Java】leet code  Test 22. Generate Parentheses" />
     <MESSAGE value="【Java】leet code  Test 22. Generate Parentheses  掏出最小堆来存，然后~ 先将所有根节点入堆，每次从堆里取出一个元素。即为当前最小元素，加入结果后， 继续取出当前元素的下一个节点（如果有）入堆。" />
@@ -1320,7 +1330,8 @@
     <MESSAGE value="【Java】 判断一个字符数组是否以suffix结尾，并写出case" />
     <MESSAGE value="【Java】  List 的  测试" />
     <MESSAGE value="【Java】  二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】  二分查找" />
+    <MESSAGE value="【Java】 Test24_SwapNodesinPairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】 Test24_SwapNodesinPairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1656,13 +1667,13 @@
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test27_ImplementStrStr.java</url>
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test28_ImplementStrStr.java</url>
           <line>74</line>
           <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test27_ImplementStrStr.java</url>
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test28_ImplementStrStr.java</url>
           <line>49</line>
           <properties />
           <option name="timeStamp" value="170" />
@@ -1785,13 +1796,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/GetCoinsCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -2028,6 +2032,14 @@
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#657#658#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test27_RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

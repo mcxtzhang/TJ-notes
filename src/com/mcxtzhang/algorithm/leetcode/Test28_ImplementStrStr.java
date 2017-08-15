@@ -13,7 +13,7 @@ package com.mcxtzhang.algorithm.leetcode;
  * Created:   2017/8/7.
  * History:
  */
-public class Test27_ImplementStrStr {
+public class Test28_ImplementStrStr {
 
     public static void main(String[] args) {
        // new Solution().strStr("abc", "a");
