@@ -18,6 +18,7 @@ public class ListTest {
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
+        ((ArrayList)list).ensureCapacity(30);
         List list2 = new ArrayList();
         for (int i = 0; i < 15; i = i + 2) {
             list2.add(i);
