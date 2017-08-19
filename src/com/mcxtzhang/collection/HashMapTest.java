@@ -13,8 +13,14 @@ import java.util.Map;
  */
 public class HashMapTest {
     public static void main(String[] args){
-        Map<String,String> map = new HashMap<>();
-        map.put("2","5");
+    Map<String,String> map = new HashMap<>();
+    map.put("1","1");
+    map.put(null,null);
+    map.put("2",null);
+    map.put("13","13");
+    map.put(null,"f");
+
+
         System.out.println(map);
     }
 }
