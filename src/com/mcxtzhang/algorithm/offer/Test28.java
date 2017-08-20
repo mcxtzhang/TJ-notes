@@ -1,5 +1,6 @@
 package com.mcxtzhang.algorithm.offer;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class Test28 {
     public static void main(String[] args) {
         String src = "abc";
         List<Character> output = new ArrayList<>();
-        permutation(src, output);
+        //permutation(src, output);
 
         permutation_20170819(src);
     }
@@ -24,24 +25,21 @@ public class Test28 {
 
     public static void permutation_20170819(String src) {
         if (null == src || src.length() < 1) return;
-        permutationHelper(src.toCharArray(), 0, new StringBuilder());
+        permutationHelper(src.toCharArray(), 0);
 
     }
 
-    public static void permutationHelper(char[] src, int begin, StringBuilder sb) {
-        if (src == null || begin < 0 || begin > src.length - 1 || sb == null) return;
+    public static void permutationHelper(char[] src, int begin) {
+        if (src == null || begin < 0 || begin > src.length - 1) return;
         for (int i = begin; i < src.length; i++) {
-            sb.append(src[i]);
             if (begin == src.length - 1) {
-                System.out.println(sb.toString());
+                System.out.println(src);
             } else {
                 swap(src, begin, i);
-                permutationHelper(src, begin + 1, sb);
+                permutationHelper(src, begin + 1);
                 swap(src, i, begin);
             }
-            sb.deleteCharAt(sb.length() - 1);
         }
-
     }
 
     public static void swap(char[] src, int l, int r) {

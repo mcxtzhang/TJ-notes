@@ -1,6 +1,7 @@
 package com.mcxtzhang.algorithm.leetcode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -26,8 +27,72 @@ import java.util.List;
  */
 public class Test46_Permutations {
     public static void main(String[] args) {
+        int[] temp = new int[]{1, 2, 3};
+        List<List<Integer>> permute = new Solution3().permute(temp);
+        for (List<Integer> integers : permute) {
+            System.out.println(integers);
+        }
 
+
+        int[] shuzu = new int[]{1, 2};
+        shuzu[0] ^= shuzu[1];
+        shuzu[1] ^= shuzu[0];
+        shuzu[0] ^= shuzu[1];
+        for (int i : shuzu) {
+            System.out.println(i);
+        }
+
+
+        int a = 1;
+        int b = 2;
+        a ^= b;
+        b ^= a;
+        a ^= b;
+
+
+        System.out.println(a + "\t" + b);
     }
+
+    //201708020
+    static class Solution3 {
+        public List<List<Integer>> permute(int[] nums) {
+            List<List<Integer>> result = new LinkedList<List<Integer>>();
+            if (null == nums || nums.length < 1) return result;
+
+            permuteSegment(nums, 0, result);
+            return result;
+
+        }
+
+
+        public void permuteSegment(int[] nums, int begin, List<List<Integer>> result) {
+            if (begin < 0 || begin > nums.length - 1 || result == null) return;
+            // end
+            if (begin == nums.length - 1) {
+                List<Integer> temp = new LinkedList<>();
+                for (int i = 0; i < nums.length; i++) {
+                    temp.add(nums[i]);
+                }
+                result.add(temp);
+                return;
+            }
+            permuteSegment(nums, begin + 1, result);
+
+            //mid
+            for (int i = begin + 1; i < nums.length; i++) {
+                swap(nums, i, begin);
+                permuteSegment(nums, begin + 1, result);
+                swap(nums, begin, i);
+            }
+        }
+
+        public void swap(int[] nums, int l, int r) {
+            nums[l] ^= nums[r];
+            nums[r] ^= nums[l];
+            nums[l] ^= nums[r];
+        }
+    }
+
 
     public class Solution1 {
         public List<List<Integer>> permute(int[] nums) {
