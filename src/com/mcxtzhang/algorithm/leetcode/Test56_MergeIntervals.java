@@ -1,7 +1,6 @@
 package com.mcxtzhang.algorithm.leetcode;
 
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -82,17 +81,47 @@ public class Test56_MergeIntervals {
 
         public List<Interval> quickSort(List<Interval> intervals) {
             if (null == intervals) return null;
-            Collections.sort(intervals, new Comparator<Interval>() {
-                @Override
-                public int compare(Interval o1, Interval o2) {
-                    return o1.start-o2.start;
-                }
-            });
-            return intervals;
+            Object[] objects = intervals.toArray();
+            quickSort(objects, 0, objects.length - 1);
+            List<Interval> res = new ArrayList<>(objects.length);
+            for (Object object : objects) {
+                res.add((Interval) object);
+            }
+            return res;
         }
+
+        //按照下标排序
+        public void quickSort(Object[] nums, int begin, int end) {
+            if (nums == null || begin < 0 || end < 0 || begin > nums.length - 1 || end > nums.length - 1 || begin >= end)
+                return;
+
+            int l = begin, r = end;
+            Interval temp = (Interval) nums[l];
+            while (l < r) {
+                while (l < r && temp.start <= ((Interval)nums[r]).start) {
+                    r--;
+                }
+                if (l < r) {
+                    nums[l] = nums[r];
+                    l++;
+                }
+
+                while (l < r && temp.start >= ((Interval)nums[l]).start) {
+                    l++;
+                }
+                if (l < r) {
+                    nums[r] = nums[l];
+                    r--;
+                }
+            }
+            nums[l] = temp;
+            quickSort(nums, begin, l - 1);
+            quickSort(nums, l + 1, end);
+
+        }
+
+
     }
-
-
 
 
 }
