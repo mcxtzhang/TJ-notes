@@ -18,6 +18,38 @@ public class Test28 {
         List<Character> output = new ArrayList<>();
         permutation(src, output);
 
+        permutation_20170819(src);
+    }
+
+
+    public static void permutation_20170819(String src) {
+        if (null == src || src.length() < 1) return;
+        permutationHelper(src.toCharArray(), 0, new StringBuilder());
+
+    }
+
+    public static void permutationHelper(char[] src, int begin, StringBuilder sb) {
+        if (src == null || begin < 0 || begin > src.length - 1 || sb == null) return;
+        for (int i = begin; i < src.length; i++) {
+            sb.append(src[i]);
+            if (begin == src.length - 1) {
+                System.out.println(sb.toString());
+            } else {
+                swap(src, begin, i);
+                permutationHelper(src, begin + 1, sb);
+                swap(src, i, begin);
+            }
+            sb.deleteCharAt(sb.length() - 1);
+        }
+
+    }
+
+    public static void swap(char[] src, int l, int r) {
+        //src[l] = src[l] ^ src[r];
+
+        char temp = src[l];
+        src[l] = src[r];
+        src[r] = temp;
     }
 
 
@@ -40,7 +72,7 @@ public class Test28 {
             permutation(temp.toString(), tobeOutput);
 
 
-            if (len==1) {
+            if (len == 1) {
                 for (Character character : tobeOutput) {
                     System.out.print(character);
                 }
