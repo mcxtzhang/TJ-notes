@@ -41,8 +41,8 @@ public class Test27 {
 
         System.out.println(treeNode1);
 
-        tree2DoubleLinkedList(treeNode1);
-
+        //tree2DoubleLinkedList(treeNode1);
+        treeConvertDoubleLinkedList_20170819(treeNode1);
         TreeNode temp = treeNode1;
         //System.out.println(treeNode1);
 
@@ -54,6 +54,31 @@ public class Test27 {
             System.out.println(temp.value);
             temp = temp.right;
         }
+    }
+
+
+    public static void treeConvertDoubleLinkedList_20170819(TreeNode root) {
+        if (root == null) return;
+        if (root.left != null) {
+            treeConvertDoubleLinkedList_20170819(root.left);
+            TreeNode temp = root.left;
+            while (temp.right != null) {
+                temp = temp.right;
+            }
+            temp.right = root;
+            root.left = temp;
+        }
+        if (root.right != null) {
+            treeConvertDoubleLinkedList_20170819(root.right);
+            TreeNode temp = root.right;
+            while (temp.left != null) {
+                temp = temp.left;
+            }
+            temp.left = root;
+            root.right = temp;
+        }
+
+
     }
 
     public static void tree2DoubleLinkedList(TreeNode root) {
