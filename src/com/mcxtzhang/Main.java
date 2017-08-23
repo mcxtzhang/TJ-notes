@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        System.out.println(new DefaultClass().a);
+/*        System.out.println(new DefaultClass().a);
 
         System.out.println(null instanceof Object);
 
@@ -18,7 +18,7 @@ public class Main {
         System.out.println(test.i);
 
 
-/*        List<String> a = new ArrayList<String>();
+*//*        List<String> a = new ArrayList<String>();
         a.add("1");
         a.add("2");
         a.add("3");
@@ -28,7 +28,7 @@ public class Main {
             if ("1".equals(temp)) {
                 a.remove(temp);
             }
-        }*/
+        }*//*
 
 
         //String 在函数中 是值传递 还是引用传递
@@ -40,7 +40,17 @@ public class Main {
 
         change(before,beforeChars);
         System.out.println(before);
-        System.out.println(beforeChars);
+        System.out.println(beforeChars);*/
+
+        String s = "2.0.0".replaceAll("\\.", "");
+        System.out.println(s);
+        s = "2.0.0".replace(".", "");
+        System.out.println(s);
+
+        s = "my.test.txt";
+        System.out.println(s.replace(".", "#"));
+        System.out.println(s.replaceAll(".", "#"));
+        System.out.println(s.replaceFirst(".", "#"));
     }
 
     public static void change(String string, char[] chars) {
