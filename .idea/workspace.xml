@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/impotant/PrimeNumberTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/impotant/MopPrimeNumTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -518,20 +518,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#25830#0" expanded="false" />
-                <element signature="e#5748#5749#0" expanded="false" />
-                <element signature="e#5784#5785#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedHashMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/collection/LinkedHashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -554,11 +540,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeNumberTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimeNumberTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/PrimeNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MopPrimeNumTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/MopPrimeNumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -692,7 +688,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test2_AddTwoNum.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test3_LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test4.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test5_LongestPalindromicSubstring.java" />
@@ -743,6 +738,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/LinkedHashMapTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/impotant/PrimeNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/impotant/MopPrimeNumTest.java" />
       </list>
     </option>
   </component>
@@ -901,7 +897,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumberTest">
+  <component name="RunManager" selected="Application.MopPrimeNumTest">
     <configuration default="false" name="LinkedHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -910,26 +906,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.collection.LinkedHashMapTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TJ-notes" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test442" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mcxtzhang.algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.algorithm.leetcode.Test442" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -990,6 +966,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.impotant.PrimeNumberTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TJ-notes" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MopPrimeNumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mcxtzhang.impotant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mcxtzhang.impotant.MopPrimeNumTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1208,18 +1204,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.LinkedHashMapTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test442" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HashMapTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PrimeNumberTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HashMapTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PrimeNumberTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MopPrimeNumTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrimeNumberTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LinkedHashMapTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HashMapTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test442" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MopPrimeNumTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrimeNumberTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LinkedHashMapTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1236,13 +1232,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
-    </task>
-    <task id="LOCAL-00101" summary="【Java】输入一课二叉树的根节点，判断该树是不是平衡二叉树。 后序遍历去优化时间">
-      <created>1500523199150</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1500523199150</updated>
     </task>
     <task id="LOCAL-00102" summary="【Java】offer 41">
       <created>1500718666367</created>
@@ -1580,7 +1569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502981590310</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="【Java】判断一个数是不是素数">
+      <created>1503480072650</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1503480072650</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1682,7 +1678,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】leet code  Test 29" />
     <MESSAGE value="【Java】leet code  Test33_SearchInRotatedSortedArray And Test34. Search for a Range" />
     <MESSAGE value="【Java】硬币找零" />
     <MESSAGE value="【Java】ReverseSentence" />
@@ -1707,7 +1702,8 @@
     <MESSAGE value="【Java】线程控制" />
     <MESSAGE value="【Java】Test442" />
     <MESSAGE value="【Java】replaceAll是正则 replace 不是正则，都是替换所有字符" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】replaceAll是正则 replace 不是正则，都是替换所有字符" />
+    <MESSAGE value="【Java】判断一个数是不是素数" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】判断一个数是不是素数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2186,8 +2182,14 @@
           <properties />
           <option name="timeStamp" value="217" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/MopPrimeNumTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="218" />
+      <option name="time" value="219" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2196,13 +2198,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/Suffix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/System.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/List.java" />
@@ -2952,6 +2947,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/MopPrimeNumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
