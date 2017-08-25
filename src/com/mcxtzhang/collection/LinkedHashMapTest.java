@@ -1,7 +1,9 @@
 package com.mcxtzhang.collection;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.ListIterator;
 import java.util.Map;
 
 /**
@@ -37,9 +39,15 @@ public class LinkedHashMapTest {
         map.put("3", "e");//3调整至末尾
         map.put(null, null);//插入两个新的节点 null
         map.put("5", null);//5
-        iterator = map.entrySet().iterator();
+/*        iterator = map.entrySet().iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
+        }*/
+//你序遍历
+        ListIterator<Map.Entry<String, String>> i = new ArrayList<Map.Entry<String, String>>(map.entrySet()).listIterator(map.size());
+        while (i.hasPrevious()) {
+            Map.Entry<String, String> entry = i.previous();
+            System.out.println(entry.getKey() + ":" + entry.getValue());
         }
 
     }
