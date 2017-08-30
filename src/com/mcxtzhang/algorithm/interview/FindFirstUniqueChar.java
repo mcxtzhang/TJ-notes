@@ -1,5 +1,6 @@
 package com.mcxtzhang.algorithm.interview;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -14,6 +15,28 @@ import java.util.Map;
 public class FindFirstUniqueChar {
     public static void main(String[] args) {
         System.out.println(findFirstUniqueChar("abbcad"));
+        System.out.println(findFirstUniqueChar2("abbcad"));
+    }
+
+    //自定义一个哈希表
+    public static char findFirstUniqueChar2(String string) {
+        if (null == string) return ' ';
+        Map<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < string.length(); i++) {
+            Integer integer = map.get(string.charAt(i));
+            if (integer==null){
+                map.put(string.charAt(i), 1);
+            }else {
+                map.put(string.charAt(i), integer+1);
+            }
+        }
+
+        for (int i = 0; i < string.length(); i++) {
+            if (1==map.get(string.charAt(i))){
+                return string.charAt(i);
+            }
+        }
+        return ' ';
     }
 
     public static char findFirstUniqueChar(String string) {
