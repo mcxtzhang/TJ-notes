@@ -10,6 +10,17 @@ package com.mcxtzhang.algorithm.leetcode;
  */
 public class Test206_ReverseLinkedList {
 
+    public static void main(String[] args){
+        ListNode head = new ListNode(1);
+        ListNode node2 = new ListNode(2);
+        head.next = node2;
+
+        ListNode listNode = new Solution4().reverseList(head);
+        System.out.println(listNode);
+
+
+    }
+
     /**
      * Definition for singly-linked list.
      * public class ListNode {
@@ -18,7 +29,7 @@ public class Test206_ReverseLinkedList {
      * ListNode(int x) { val = x; }
      * }
      */
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
@@ -26,6 +37,34 @@ public class Test206_ReverseLinkedList {
             val = x;
         }
     }
+
+    //20170831   beats26.2%
+    public static class Solution4 {
+        public ListNode reverseList(ListNode head) {
+            if (head == null || head.next == null) return head;
+            //loop
+            ListNode pre =null;
+            ListNode cur=null;
+            while(head!=null){
+                if(null==pre){
+                    pre = head;
+                    head = head.next;
+                    pre.next =null;
+                }else{
+                    cur = head;
+                    head = head.next;
+                    cur.next= pre;
+                    pre = cur;
+                }
+            }
+            return cur;
+
+
+        }
+
+    }
+
+
 
     //递归 ok
     public class Solution3 {
