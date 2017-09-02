@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test203_RemoveLinkedListElements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test160_IntersectionofTwoLinkedLists.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,16 +36,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/interview/StringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test45.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test45.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test203_RemoveLinkedListElements.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test203_RemoveLinkedListElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test203_RemoveLinkedListElements.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
@@ -108,6 +97,16 @@
                 <element signature="e#585#586#0" expanded="true" />
                 <element signature="e#616#617#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test160_IntersectionofTwoLinkedLists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test160_IntersectionofTwoLinkedLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1825">
+              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -199,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test36_ValidSudoku.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test38.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test38_CountAndSay.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test41_FirstMissingPositive.java" />
@@ -250,6 +248,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test206_ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test203_RemoveLinkedListElements.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test160_IntersectionofTwoLinkedLists.java" />
       </list>
     </option>
   </component>
@@ -770,13 +769,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00113" summary="【Java】leet code  4 Median of Two Sorted Arrays">
-      <created>1501729719310</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1501729719311</updated>
-    </task>
     <task id="LOCAL-00114" summary="【Java】leet code  Test21_MergeTwoLists">
       <created>1501862583043</created>
       <option name="number" value="00114" />
@@ -1113,7 +1105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504158663067</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="【Java】203. Remove Linked List Elements">
+      <created>1504344624512</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1504344624512</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1783,13 +1782,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/JoinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/JoinThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
@@ -2065,6 +2057,14 @@
             <element signature="e#585#586#0" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test160_IntersectionofTwoLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
