@@ -1,4 +1,4 @@
-package com.mcxtzhang.algorithm.leetcode;
+package com.mcxtzhang.algorithm.leetcode.ListNode;
 
 /**
  * Intro:
@@ -21,14 +21,7 @@ package com.mcxtzhang.algorithm.leetcode;
  * History:
  */
 public class Test328_OddEvenLinkedList {
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * Definition for singly-linked list.
