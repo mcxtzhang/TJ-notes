@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/ListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test160_IntersectionofTwoLinkedLists.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test160_IntersectionofTwoLinkedLists.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test203_RemoveLinkedListElements.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test203_RemoveLinkedListElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test206_ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test206_ReverseLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test328_OddEvenLinkedList.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test328_OddEvenLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +39,8 @@
       <file leaf-file-name="Test86_Partition_List.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="1450">
+              <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -709,13 +704,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00116" summary="【Java】leet code  Test17. Letter Combinations of a Phone Number">
-      <created>1501921134739</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1501921134739</updated>
-    </task>
     <task id="LOCAL-00117" summary="【Java】leet code  Test19.Remove Nth Node From End of List">
       <created>1501922020417</created>
       <option name="number" value="00117" />
@@ -1052,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504349912640</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="【Java】T86. Partition List">
+      <created>1504490404935</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1504490404935</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1089,7 +1084,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44642857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44642857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1154,7 +1149,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】 判断字符串是否是回文" />
     <MESSAGE value="【Java】 判断一个字符数组是否以suffix结尾，并写出case" />
     <MESSAGE value="【Java】  List 的  测试" />
     <MESSAGE value="【Java】  二分查找" />
@@ -1179,7 +1173,8 @@
     <MESSAGE value="【Java】203. Remove Linked List Elements" />
     <MESSAGE value="【Java】Intersection of Two Linked Lists" />
     <MESSAGE value="【Java】Test328_OddEvenLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test328_OddEvenLinkedList" />
+    <MESSAGE value="【Java】T86. Partition List" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】T86. Partition List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1718,8 +1713,20 @@
           <properties />
           <option name="timeStamp" value="230" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="233" />
+      <option name="time" value="236" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2012,8 +2019,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="1450">
+          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="29" />
           <folding />
         </state>
       </provider>
