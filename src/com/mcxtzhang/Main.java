@@ -1,5 +1,7 @@
 package com.mcxtzhang;
 
+import com.mcxtzhang.algorithm.leetcode.Test23_MergeKSortedList.ListNode;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -65,13 +67,20 @@ public class Main {
         String b = a+"4";
         String c =a+"4";
         System.out.println(b==c);*/
-
+/*
         Integer a = -129;//-128 ~ 127 是true
         Integer b = -129;
         System.out.println(a == b);
         Integer c = a + 1;
         Integer d = a + 1;
-        System.out.println(c == d);
+        System.out.println(c == d);*/
+
+        ListNode dummy1 = new ListNode(0);
+        ListNode dummy2 = new ListNode(0);
+        ListNode cur1 = dummy1.next, cur2 = dummy2.next;
+        cur1 = new ListNode(3);
+        System.out.println(dummy1);
+
     }
 
     public static void change(String string, char[] chars) {
