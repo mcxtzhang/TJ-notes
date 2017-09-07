@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test25_ReverseNodesinkGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test109_ConvertSortedListtoBinarySearchTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,22 +36,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test23_MergeKSortedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test23_MergeKSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3225">
               <caret line="129" column="15" lean-forward="false" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
-              <folding />
+              <folding>
+                <element signature="e#4062#4063#0" expanded="false" />
+                <element signature="e#4093#4094#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test25_ReverseNodesinkGroup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test25_ReverseNodesinkGroup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test25_ReverseNodesinkGroup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="700">
@@ -126,12 +119,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Test109_ConvertSortedListtoBinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test109_ConvertSortedListtoBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="56" />
+              <folding>
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ImportTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Chapter6/ImportTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#452#453#0" expanded="false" />
+                <element signature="e#490#491#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/Prefix.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/Suffi.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/Suffix.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/BinarySearch.java" />
@@ -244,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test143_ReorderList.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/interview/StringTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test25_ReverseNodesinkGroup.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test109_ConvertSortedListtoBinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -820,13 +829,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00121" summary="【Java】leet code  Test 22. Generate Parentheses  掏出最小堆来存，然后~ 先将所有根节点入堆，每次从堆里取出一个元素。即为当前最小元素，加入结果后， 继续取出当前元素的下一个节点（如果有）入堆。">
-      <created>1501989294525</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1501989294525</updated>
-    </task>
     <task id="LOCAL-00122" summary="【Java】leet code  Test 22. Generate Parentheses  利用分治法来搞定">
       <created>1501991015182</created>
       <option name="number" value="00122" />
@@ -1163,7 +1165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504590401270</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="【Java】Test25_ReverseNodesinkGroup">
+      <created>1504755561094</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1504755561094</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1187,7 +1196,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870535" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20870535" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1265,7 +1274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】 Test24_SwapNodesinPairs" />
     <MESSAGE value="【Java】 Test27_RemoveElement" />
     <MESSAGE value="【Java】 Test35_SearchInsertPosition" />
     <MESSAGE value="【Java】输入一个整数，输出二进制中 1 的个数" />
@@ -1290,7 +1298,8 @@
     <MESSAGE value="【Java】Test142_Linked_List_Cycle_II" />
     <MESSAGE value="【Java】Test92_ReverseLinkedListII" />
     <MESSAGE value="【Java】Test82_RemoveDuplicatesfromSortedListII" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test82_RemoveDuplicatesfromSortedListII" />
+    <MESSAGE value="【Java】Test25_ReverseNodesinkGroup" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test25_ReverseNodesinkGroup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1875,7 +1884,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Objects.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Object.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashSet.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java" />
@@ -2095,7 +2103,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3225">
           <caret line="129" column="15" lean-forward="false" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#4062#4063#0" expanded="false" />
+            <element signature="e#4093#4094#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2151,7 +2162,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2160,6 +2174,17 @@
         <state relative-caret-position="700">
           <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test109_ConvertSortedListtoBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
