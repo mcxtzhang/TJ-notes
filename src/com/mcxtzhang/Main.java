@@ -81,6 +81,9 @@ public class Main {
         cur1 = new ListNode(3);
         System.out.println(dummy1);
 
+        System.out.println(  1%2);
+        System.out.println(  -1%2);
+
     }
 
     public static void change(String string, char[] chars) {

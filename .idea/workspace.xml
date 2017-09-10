@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +40,8 @@
       <file leaf-file-name="Test61_Rotate_List.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="233">
+              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -143,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test86_Partition_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test142_Linked_List_Cycle_II.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test23_MergeKSortedList.java" />
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test92_ReverseLinkedListII.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test82_RemoveDuplicatesfromSortedListII.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test143_ReorderList.java" />
@@ -153,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61/_Rotate_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61/Teest61_Rotate_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61/Test61_Rotate_List.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/Main.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java" />
       </list>
     </option>
@@ -428,7 +429,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test61_Rotate_List">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -742,11 +743,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test61_Rotate_List" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test143_ReorderList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test82_RemoveDuplicatesfromSortedListII" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test61_Rotate_List" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test143_ReorderList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test82_RemoveDuplicatesfromSortedListII" />
       </list>
     </recent_temporary>
   </component>
@@ -763,13 +764,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
-    </task>
-    <task id="LOCAL-00122" summary="【Java】leet code  Test 22. Generate Parentheses  利用分治法来搞定">
-      <created>1501991015182</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1501991015182</updated>
     </task>
     <task id="LOCAL-00123" summary="【Java】leet code  Test 26. Remove Duplicates from Sorted Array">
       <created>1501992502346</created>
@@ -1107,7 +1101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504755561094</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="【Java】Test61_Rotate_List">
+      <created>1505019280951</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1505019280952</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1121,7 +1122,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1132,13 +1132,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28236607" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870535" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23347548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23347548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1209,7 +1209,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】 Test27_RemoveElement" />
     <MESSAGE value="【Java】 Test35_SearchInsertPosition" />
     <MESSAGE value="【Java】输入一个整数，输出二进制中 1 的个数" />
     <MESSAGE value="【Java】线程控制" />
@@ -1234,7 +1233,8 @@
     <MESSAGE value="【Java】Test92_ReverseLinkedListII" />
     <MESSAGE value="【Java】Test82_RemoveDuplicatesfromSortedListII" />
     <MESSAGE value="【Java】Test25_ReverseNodesinkGroup" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test25_ReverseNodesinkGroup" />
+    <MESSAGE value="【Java】Test61_Rotate_List" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test61_Rotate_List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1815,8 +1815,26 @@
           <properties />
           <option name="timeStamp" value="244" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="254" />
+      <option name="time" value="257" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1984,14 +2002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test23_MergeKSortedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3225">
@@ -2122,10 +2132,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="84" column="30" lean-forward="false" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="233">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding />
         </state>
       </provider>
