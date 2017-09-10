@@ -26,6 +26,49 @@ public class Test147_Insertion_Sort_List {
         ListNode listNode = new Solution().insertionSortList(head);
     }
 
+    //精简了插入的部分
+    class Solution2 {
+        //测试用例    3 1 4 5 2
+        public ListNode insertionSortList(ListNode head) {
+            //插入排序，遍历整个List，每次将当前节点插入到 已经有序的List中的合适位置， 遍历完毕 sort完毕
+            if(null == head) return null;
+
+            ListNode sortListHead = new ListNode(0);
+            sortListHead.next = head;
+            ListNode cur = head.next;
+            ListNode temp;
+            head.next = null;
+            while(cur!=null){
+                temp = cur;
+                cur = cur.next;
+                temp.next = null;
+
+                //在已经有序的List里插入
+                ListNode cur2 = sortListHead;
+
+                while(null!= cur2.next){
+                    if(temp.val<=cur2.next.val){
+                        //插入
+                        temp.next = cur2.next;
+                        cur2.next = temp;
+                        break;
+                    }else{
+                        if(cur2.next.next==null){
+                            cur2.next.next = temp;
+                            break;
+                        }else{
+                            cur2 = cur2.next;
+                        }
+                    }
+                }
+            }
+
+            return sortListHead.next;
+
+
+        }
+    }
+
 
     /**
      * Definition for singly-linked list.
