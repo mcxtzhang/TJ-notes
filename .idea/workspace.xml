@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="【Java】Test147_Insertion_Sort_List">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test617_Merge_Two_Binary_Trees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/TreeNode.java" />
+    <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test669_Trim_a_Binary_Search_Tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test617_Merge_Two_Binary_Trees.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test617_Merge_Two_Binary_Trees.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test617_Merge_Two_Binary_Trees.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
               <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test669_Trim_a_Binary_Search_Tree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test669_Trim_a_Binary_Search_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -187,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/JoinThreadTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/LockTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test12_20170816.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/ListTest.java" />
@@ -238,6 +246,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test147_Insertion_Sort_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test617_Merge_Two_Binary_Trees.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test669_Trim_a_Binary_Search_Tree.java" />
       </list>
     </option>
   </component>
@@ -814,13 +823,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00125" summary="【Java】leet code  Test 29">
-      <created>1502088496397</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1502088496397</updated>
-    </task>
     <task id="LOCAL-00126" summary="【Java】leet code  Test33_SearchInRotatedSortedArray And Test34. Search for a Range">
       <created>1502161914914</created>
       <option name="number" value="00126" />
@@ -1157,7 +1159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505037639421</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="【Java】Test617_Merge_Two_Binary_Trees">
+      <created>1505129629706</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1505129629708</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1259,7 +1268,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】输入一个整数，输出二进制中 1 的个数" />
     <MESSAGE value="【Java】线程控制" />
     <MESSAGE value="【Java】Test442" />
     <MESSAGE value="【Java】replaceAll是正则 replace 不是正则，都是替换所有字符" />
@@ -1284,7 +1292,8 @@
     <MESSAGE value="【Java】Test25_ReverseNodesinkGroup" />
     <MESSAGE value="【Java】Test61_Rotate_List" />
     <MESSAGE value="【Java】Test147_Insertion_Sort_List" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test147_Insertion_Sort_List" />
+    <MESSAGE value="【Java】Test617_Merge_Two_Binary_Trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test617_Merge_Two_Binary_Trees" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1893,7 +1902,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/collection/LinkedHashMapTest.java">
@@ -2215,6 +2223,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test669_Trim_a_Binary_Search_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
       </provider>
