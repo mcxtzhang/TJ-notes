@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test226_Invert_Binary_Tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,11 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test104_MaximumDepthofBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test104_MaximumDepthofBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
               <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test226_Invert_Binary_Tree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test226_Invert_Binary_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -131,16 +141,6 @@
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#168#169#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test25_ReverseNodesinkGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test25_ReverseNodesinkGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -202,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/ListTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test442.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/HashMapTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/LinkedHashMapTest.java" />
@@ -253,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test669_Trim_a_Binary_Search_Tree.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test637Average.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test226_Invert_Binary_Tree.java" />
       </list>
     </option>
   </component>
@@ -899,13 +899,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00128" summary="【Java】硬币找零">
-      <created>1502174400452</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1502174400452</updated>
-    </task>
     <task id="LOCAL-00129" summary="【Java】ReverseSentence">
       <created>1502181668985</created>
       <option name="number" value="00129" />
@@ -1242,7 +1235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505132117252</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="【Java】Test104_MaximumDepthofBinaryTree">
+      <created>1505132434492</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1505132434493</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1344,7 +1344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】replaceAll是正则 replace 不是正则，都是替换所有字符" />
     <MESSAGE value="【Java】判断一个数是不是素数" />
     <MESSAGE value="【Java】判断一个数 是不是 猫扑 素数" />
     <MESSAGE value="【Java】求1到n整数中，1出现的次数" />
@@ -1369,7 +1368,8 @@
     <MESSAGE value="【Java】Test617_Merge_Two_Binary_Trees" />
     <MESSAGE value="【Java】Test669_Trim_a_Binary_Search_Tree" />
     <MESSAGE value="【Java】Test637Average" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test637Average" />
+    <MESSAGE value="【Java】Test104_MaximumDepthofBinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test104_MaximumDepthofBinaryTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1978,13 +1978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/HuiWen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test32.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2343,6 +2336,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test226_Invert_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="39" />
           <folding />
         </state>
       </provider>
