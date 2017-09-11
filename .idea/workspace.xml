@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test637Average.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test637Average.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test637Average.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test637Average.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
@@ -74,6 +74,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test104_MaximumDepthofBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,16 +131,6 @@
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#168#169#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test143_ReorderList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test143_ReorderList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -202,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test12_20170816.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/ListTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test442.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/HashMapTest.java" />
@@ -253,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test669_Trim_a_Binary_Search_Tree.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test637Average.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -899,13 +899,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00127" summary="【Java】硬币找零">
-      <created>1502173596664</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1502173596664</updated>
-    </task>
     <task id="LOCAL-00128" summary="【Java】硬币找零">
       <created>1502174400452</created>
       <option name="number" value="00128" />
@@ -1242,7 +1235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505130689153</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="【Java】Test637Average">
+      <created>1505132117252</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1505132117252</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1344,7 +1344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】Test442" />
     <MESSAGE value="【Java】replaceAll是正则 replace 不是正则，都是替换所有字符" />
     <MESSAGE value="【Java】判断一个数是不是素数" />
     <MESSAGE value="【Java】判断一个数 是不是 猫扑 素数" />
@@ -1369,7 +1368,8 @@
     <MESSAGE value="【Java】Test147_Insertion_Sort_List" />
     <MESSAGE value="【Java】Test617_Merge_Two_Binary_Trees" />
     <MESSAGE value="【Java】Test669_Trim_a_Binary_Search_Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test669_Trim_a_Binary_Search_Tree" />
+    <MESSAGE value="【Java】Test637Average" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test637Average" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1978,13 +1978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/Suffix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/HuiWen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -2343,6 +2336,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
