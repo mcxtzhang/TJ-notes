@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test538.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test404SumofLeftLeaves.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test538.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test538.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test538.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
               <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test404SumofLeftLeaves.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test404SumofLeftLeaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -167,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/collection/LinkedHashMapTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/impotant/PrimeNumberTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/impotant/MopPrimeNumTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test32.java" />
@@ -218,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test653TwoSumIVInputisaBST.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test538.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test404SumofLeftLeaves.java" />
       </list>
     </option>
   </component>
@@ -864,13 +874,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00130" summary="【Java】ReverseSentence">
-      <created>1502181786689</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1502181786689</updated>
-    </task>
     <task id="LOCAL-00131" summary="【Java】test36.Valid Sudoku">
       <created>1502246750522</created>
       <option name="number" value="00131" />
@@ -1207,7 +1210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505133263878</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="【Java】Test538. Convert BST to Greater Tree">
+      <created>1505227488352</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1505227488352</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1229,7 +1239,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28236607" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870535" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
@@ -1309,7 +1319,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【Java】判断一个数 是不是 猫扑 素数" />
     <MESSAGE value="【Java】求1到n整数中，1出现的次数" />
     <MESSAGE value="【Java】Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.&#10;       * &lt;p&gt;&#10;       * You may assume the integer do not contain any leading zero, except the number 0 itself.&#10;       * &lt;p&gt;&#10;       * The digits are stored such that the most significant digit is at the head of the list." />
     <MESSAGE value="【Java】字符串的左旋转操作是把 字符串前面的若干个字符转移到字符串的尾部。&#10;       * 请定义一个函数实现字符串左旋转操作的功能。&#10;       * 比如输入字符串&quot;abcdefg&quot;和数字2.得到&quot;cdefgab&quot;" />
@@ -1334,7 +1343,8 @@
     <MESSAGE value="【Java】Test637Average" />
     <MESSAGE value="【Java】Test104_MaximumDepthofBinaryTree" />
     <MESSAGE value="【Java】Test226_Invert_Binary_Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test226_Invert_Binary_Tree" />
+    <MESSAGE value="【Java】Test538. Convert BST to Greater Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test538. Convert BST to Greater Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1955,7 +1965,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Math.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/StrictMath.java" />
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test66_PlueOne.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2282,6 +2291,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test404SumofLeftLeaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="35" />
           <folding />
         </state>
       </provider>
