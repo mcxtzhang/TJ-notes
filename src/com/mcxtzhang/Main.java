@@ -84,6 +84,13 @@ public class Main {
         System.out.println(  1%2);
         System.out.println(  -1%2);
 
+
+        String url = "tel:15012345678";
+        if (url.startsWith("tel:")){
+            String phone = url.substring(url.indexOf(':')+1);
+            System.out.println(phone);
+        }
+
     }
 
     public static void change(String string, char[] chars) {
