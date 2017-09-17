@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test108.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test572.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,16 +36,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Test538.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test538.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test404SumofLeftLeaves.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test404SumofLeftLeaves.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test108.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test108.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test108.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
               <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test572.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test572.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -195,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/other/FindMinGapTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test62.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test62UniquePaths.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test66_PlueOne.java" />
@@ -246,6 +245,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test563_Binary_Tree_Tilt.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test671.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test108.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test572.java" />
       </list>
     </option>
   </component>
@@ -887,13 +887,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00133" summary="【Java】Test41_FirstMissingPositive">
-      <created>1502269908910</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1502269908910</updated>
-    </task>
     <task id="LOCAL-00134" summary="【Java】Test48_RotateImage">
       <created>1502375740173</created>
       <option name="number" value="00134" />
@@ -1230,7 +1223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505639460915</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="【Java】sortedArrayToBST">
+      <created>1505643778900</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1505643778900</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1334,7 +1334,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="【Java】字符串的左旋转操作是把 字符串前面的若干个字符转移到字符串的尾部。&#10;       * 请定义一个函数实现字符串左旋转操作的功能。&#10;       * 比如输入字符串&quot;abcdefg&quot;和数字2.得到&quot;cdefgab&quot;" />
     <MESSAGE value="【Java】测试给类和对象加Synchronized区别" />
     <MESSAGE value="【Java】如何仅用递归函数和栈操作逆序一个栈" />
     <MESSAGE value="【Java】String Test" />
@@ -1359,7 +1358,8 @@
     <MESSAGE value="【Java】Test538. Convert BST to Greater Tree" />
     <MESSAGE value="【Java】 快速排序" />
     <MESSAGE value="【Java】 Test671" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】 Test671" />
+    <MESSAGE value="【Java】sortedArrayToBST" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】sortedArrayToBST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1980,7 +1980,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractList.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractSequentialList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/JosephusProblem.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2322,6 +2321,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test572.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
