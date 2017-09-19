@@ -19,7 +19,7 @@ class NoBlockClass implements Runnable {
         while (true) {
             i++;
             if (i % 1000000000 == 0)
-                System.out.println("我活着");
+                System.out.println("我活着:Thread.interrupted():" + Thread.interrupted());
         }
         //System.out.println("我要死了");
     }
@@ -34,6 +34,22 @@ public class Test701 {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("尝试停止线程");
         thread.interrupt();
+        System.out.println("已经执行了interrupt:" + thread.isInterrupted());
+
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("已经执行了interrupt:" + thread.isInterrupted());
     }
 
 }
+
+/**
+ * 我活着:Thread.interrupted():false
+ * 尝试停止线程
+ * 已经执行了interrupt:true
+ * 我活着:Thread.interrupted():true
+ * 我活着:Thread.interrupted():false
+ * 已经执行了interrupt:false
+ * 我活着:Thread.interrupted():false
+ * 我活着:Thread.interrupted():false
+ * 我活着:Thread.interrupted():false
+ */

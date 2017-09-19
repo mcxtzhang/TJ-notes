@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Test701.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Test701.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Test701.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +66,7 @@
       <file leaf-file-name="Test701.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Test701.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="125">
               <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
@@ -855,13 +855,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00140" summary="【Java】 重建二叉树">
-      <created>1502688969248</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1502688969248</updated>
-    </task>
     <task id="LOCAL-00141" summary="【Java】 判断字符串是否是回文">
       <created>1502760424682</created>
       <option name="number" value="00141" />
@@ -1198,7 +1191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505800781553</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="【Java】 测试没有阻塞，使用interrupt 无法退出线程">
+      <created>1505801385728</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1505801385728</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1224,12 +1224,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870535" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28236607" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.49455675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2553305" sideWeight="0.49455675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1302,7 +1302,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="【Java】反转链表" />
     <MESSAGE value="【Java】203. Remove Linked List Elements" />
     <MESSAGE value="【Java】Intersection of Two Linked Lists" />
     <MESSAGE value="【Java】Test328_OddEvenLinkedList" />
@@ -1327,7 +1326,8 @@
     <MESSAGE value="【Java】235. Lowest Common Ancestor of a Binary Search Tree" />
     <MESSAGE value="【Java】 Lowest Common Ancestor of a Binary Tree (未完成)" />
     <MESSAGE value="【Java】  * Intro: 700 页，测试同一个对象先在A线程调用 ReenTrantLock.lock()锁住，&#10;        * 1 再在A线程这个对象上使用lock() 能否通过。&#10;        * 2 再在B线程这个对象上使用lock() 能否通过。&#10;        * 3 再在A线程这个对象上使用lockInterruptibly() 能否通过。//通过&#10;        * 3 再在B线程这个对象上使用lockInterruptibly() 能否通过。//通不过" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】  * Intro: 700 页，测试同一个对象先在A线程调用 ReenTrantLock.lock()锁住，&#10;        * 1 再在A线程这个对象上使用lock() 能否通过。&#10;        * 2 再在B线程这个对象上使用lock() 能否通过。&#10;        * 3 再在A线程这个对象上使用lockInterruptibly() 能否通过。//通过&#10;        * 3 再在B线程这个对象上使用lockInterruptibly() 能否通过。//通不过" />
+    <MESSAGE value="【Java】 测试没有阻塞，使用interrupt 无法退出线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】 测试没有阻塞，使用interrupt 无法退出线程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2345,7 +2345,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Test701.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="125">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
