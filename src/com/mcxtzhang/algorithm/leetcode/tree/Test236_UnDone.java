@@ -26,7 +26,7 @@ import java.util.List;
  * Created:   2017/9/19.
  * History:
  */
-public class Test236 {
+public class Test236_UnDone {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         TreeNode node = new TreeNode(2);
