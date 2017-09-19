@@ -35,6 +35,7 @@ public class Test701 {
         System.out.println("尝试停止线程");
         thread.interrupt();
         System.out.println("已经执行了interrupt:" + thread.isInterrupted());
+        System.out.println("已经执行了interrupt:" + thread.isInterrupted());
 
         TimeUnit.SECONDS.sleep(2);
         System.out.println("已经执行了interrupt:" + thread.isInterrupted());
@@ -45,6 +46,7 @@ public class Test701 {
 /**
  * 我活着:Thread.interrupted():false
  * 尝试停止线程
+ * 已经执行了interrupt:true
  * 已经执行了interrupt:true
  * 我活着:Thread.interrupted():true
  * 我活着:Thread.interrupted():false

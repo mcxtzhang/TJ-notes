@@ -2,6 +2,8 @@ package com.mcxtzhang;
 
 import com.mcxtzhang.algorithm.leetcode.Test23_MergeKSortedList.ListNode;
 
+import java.math.BigDecimal;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -81,15 +83,27 @@ public class Main {
         cur1 = new ListNode(3);
         System.out.println(dummy1);
 
-        System.out.println(  1%2);
-        System.out.println(  -1%2);
+        System.out.println(1 % 2);
+        System.out.println(-1 % 2);
 
 
         String url = "tel:15012345678";
-        if (url.startsWith("tel:")){
-            String phone = url.substring(url.indexOf(':')+1);
+        if (url.startsWith("tel:")) {
+            String phone = url.substring(url.indexOf(':') + 1);
             System.out.println(phone);
         }
+
+
+        double limitPrice = 20;
+        //2 然后获取到本地购物车 ，当前物品所属店铺 所有选中物品的总金额
+        double localSumPrices = 1;
+        if (limitPrice > localSumPrices && localSumPrices > 0) {
+            BigDecimal subtract = new BigDecimal(limitPrice).subtract(new BigDecimal(localSumPrices));
+            double f1 = subtract.setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
+
+            System.out.println(f1);
+        }
+
 
     }
 
