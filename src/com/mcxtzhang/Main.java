@@ -105,6 +105,18 @@ public class Main {
         }
 
 
+        StringBuilder sb = new StringBuilder();
+        sb.append(1)
+                .append("->")
+                .append(1)
+                .append("->")
+                .append(1)
+                .append("->");
+
+        //only del one char
+        System.out.println(sb.delete(sb.length()-2,sb.length()-1));
+
+
     }
 
     public static void change(String string, char[] chars) {
