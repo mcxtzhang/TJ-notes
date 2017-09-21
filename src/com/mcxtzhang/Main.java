@@ -110,13 +110,26 @@ public class Main {
                 .append("->")
                 .append(1)
                 .append("->")
-                .append(1)
+                .append(100)
                 .append("->");
 
         //only del one char
         System.out.println(sb.delete(sb.length()-2,sb.length()-1));
+       /* System.out.println(sb.deleteCharAt(sb.length()-1));
+        System.out.println(sb.deleteCharAt(sb.length()-1));
+        System.out.println(sb.deleteCharAt(sb.length()-1));*/
+
+        int i = sb.lastIndexOf(String.valueOf(100));
+        System.out.println(i);
+        System.out.println(sb.delete(i,sb.length()));
 
 
+        sb = new StringBuilder();
+        sb.append(1);
+
+        i = sb.lastIndexOf(String.valueOf(1));
+        System.out.println(i);
+        System.out.println(sb.delete(i,sb.length()));
     }
 
     public static void change(String string, char[] chars) {
