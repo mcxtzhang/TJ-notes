@@ -3,6 +3,8 @@ package com.mcxtzhang;
 import com.mcxtzhang.algorithm.leetcode.Test23_MergeKSortedList.ListNode;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -104,6 +106,11 @@ public class Main {
             System.out.println(f1);
         }
 
+        List<String> list = new ArrayList<>();
+        list.add(null);
+        list.add("d");
+        list.add(null);
+        System.out.println(list);
 
         StringBuilder sb = new StringBuilder();
         sb.append(1)
