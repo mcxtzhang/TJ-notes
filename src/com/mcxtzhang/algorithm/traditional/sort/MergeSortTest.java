@@ -1,4 +1,4 @@
-package com.mcxtzhang.algorithm.traditional;
+package com.mcxtzhang.algorithm.traditional.sort;
 
 /**
  * Intro: 归并排序
