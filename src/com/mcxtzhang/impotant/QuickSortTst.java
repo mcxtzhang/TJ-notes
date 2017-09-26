@@ -1,7 +1,7 @@
 package com.mcxtzhang.impotant;
 
 /**
- * Intro:快速排序
+ * Intro:快速排序   http://blog.csdn.net/qy1387/article/details/7752973
  * Author: zhangxutong
  * E-mail: mcxtzhang@163.com
  * Home Page: http://blog.csdn.net/zxt0601
