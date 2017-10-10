@@ -1,5 +1,6 @@
 package com.mcxtzhang.chapter21;
 
+import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -66,5 +67,8 @@ public class TestP700 {
         }
         System.out.println("Begin interrupt t.interrupt()");
         thread.interrupt();
+
+        CyclicBarrier cyclicBarrier = new CyclicBarrier(3,new Blocked2());
+        //cyclicBarrier.
     }
 }
