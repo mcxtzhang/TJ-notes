@@ -8,7 +8,7 @@ package com.mcxtzhang.algorithm.leetcode.array;
  * <p>
  * Note:
  * You must do this in-place without making a copy of the array.
- * Minimize the total number of operations.
+ * Minimize the total number of operations.5
  * <p>
  * <p>
  * Author: zhangxutong
