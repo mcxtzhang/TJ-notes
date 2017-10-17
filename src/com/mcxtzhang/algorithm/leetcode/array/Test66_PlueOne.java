@@ -1,4 +1,4 @@
-package com.mcxtzhang.algorithm.leetcode;
+package com.mcxtzhang.algorithm.leetcode.array;
 
 /**
  * Intro:Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
@@ -34,6 +34,7 @@ public class Test66_PlueOne {
                 //后几位是9，当前位不是9 不需要进位，但需要加1
                 digits[i] = digits[i] + 1;
                 i++;
+                //同时后几位置0
                 for (; i < digits.length; i++) {
                     digits[i] = 0;
                 }

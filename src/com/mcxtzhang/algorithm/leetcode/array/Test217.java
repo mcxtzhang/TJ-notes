@@ -21,12 +21,29 @@ import java.util.Map;
 public class Test217 {
     class Solution2 {
         public boolean containsDuplicate(int[] nums) {
-            if(null == nums || nums.length <1) return false;
+            if (null == nums || nums.length < 1) return false;
             //方法2 排序 依次遍历
             Arrays.sort(nums);
             int len = nums.length;
-            for(int i=1;i<len;i++){
-                if(nums[i]==nums[i-1]){
+            for (int i = 1; i < len; i++) {
+                if (nums[i] == nums[i - 1]) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    }
+
+
+    class Solution3 {
+        public boolean containsDuplicate(int[] nums) {
+            if (null == nums || nums.length < 1) return false;
+            //方法1 用 O(n)的空间 做哈希表
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int i : nums) {
+                if (map.get(i) == null) {
+                    map.put(i, 1);
+                } else {
                     return true;
                 }
             }
@@ -37,21 +54,21 @@ public class Test217 {
 
     class Solution {
         public boolean containsDuplicate(int[] nums) {
-            if(null == nums || nums.length <1) return false;
+            if (null == nums || nums.length < 1) return false;
             //方法1 用 O(n)的空间 做哈希表
-            Map<Integer,Integer> map =new HashMap<>();
-            for(int i:nums){
-                if(map.get(i)==null){
-                    map.put(i,1);
-                }else{
-                    map.put(i,2);
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int i : nums) {
+                if (map.get(i) == null) {
+                    map.put(i, 1);
+                } else {
+                    map.put(i, 2);
                 }
             }
 
-            Iterator<Map.Entry<Integer,Integer>> iterator = map.entrySet().iterator();
-            while(iterator.hasNext()){
-                Map.Entry<Integer,Integer> entry = iterator.next();
-                if(entry.getValue()==2){
+            Iterator<Map.Entry<Integer, Integer>> iterator = map.entrySet().iterator();
+            while (iterator.hasNext()) {
+                Map.Entry<Integer, Integer> entry = iterator.next();
+                if (entry.getValue() == 2) {
                     return true;
                 }
             }
@@ -60,7 +77,6 @@ public class Test217 {
 
         }
     }
-
 
 
 }
