@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="【Java】Missing Number">
+    <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test219.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/Test53_MaximumSubarray.java" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test53_MaximumSubarray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,102 +39,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Test66_PlueOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test66_PlueOne.java">
+      <file leaf-file-name="Test219.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test219.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test27_RemoveElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test27_RemoveElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test35_SearchInsertPosition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test35_SearchInsertPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test268.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test268.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test53_MaximumSubarray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test53_MaximumSubarray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/Executors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="85" column="64" lean-forward="true" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PriorityBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="107" column="30" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Future.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/Future.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="98" column="68" lean-forward="true" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunnableFuture.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/RunnableFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test109_ConvertSortedListtoBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61/_Rotate_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61/Teest61_Rotate_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61/Test61_Rotate_List.java" />
@@ -249,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test35_SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test268.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test53_MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test219.java" />
       </list>
     </option>
   </component>
@@ -632,7 +544,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Prio&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;HashMap&#9;PSI&#9;JAVA://com.mcxtzhang.collection.HashMapTest&#10;Observer&#9;PSI&#9;JAVA://java.util.Observer&#10;Vola&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/com/mcxtzhang/chapter21/Volatile.java&#10;LinkedLI&#9;PSI&#9;JAVA://com.mcxtzhang.collection.LinkedListTest&#10;LinkedList&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.ReverseLinkedList3#reverseLinkedList&#10;Linkedl&#9;PSI&#9;JAVA://com.mcxtzhang.LinkedList&#10;Integer&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.leetcode.ReverseInteger&#10;BLockingQu&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;Concur&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/Stack.class&#10;Deque&#9;PSI&#9;JAVA://java.util.Deque&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;Link&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;LinkedHashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedHashMap.java&#10;hashTabl&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Hashtable.java&#10;HashSe&#9;PSI&#9;JAVA://java.util.HashSet&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;lRU&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;LinkedHashM&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;OBserv&#9;PSI&#9;JAVA://java.util.Observable&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java&#10;Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream&#10;Boolean&#9;PSI&#9;JAVA://java.lang.Boolean" />
+    <property name="SearchEverywhereHistoryKey" value="ThreadPoolExe&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Prio&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;HashMap&#9;PSI&#9;JAVA://com.mcxtzhang.collection.HashMapTest&#10;Observer&#9;PSI&#9;JAVA://java.util.Observer&#10;Vola&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/com/mcxtzhang/chapter21/Volatile.java&#10;LinkedLI&#9;PSI&#9;JAVA://com.mcxtzhang.collection.LinkedListTest&#10;LinkedList&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.ReverseLinkedList3#reverseLinkedList&#10;Linkedl&#9;PSI&#9;JAVA://com.mcxtzhang.LinkedList&#10;Integer&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.leetcode.ReverseInteger&#10;BLockingQu&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;Concur&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/Stack.class&#10;Deque&#9;PSI&#9;JAVA://java.util.Deque&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;Link&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;LinkedHashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedHashMap.java&#10;hashTabl&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Hashtable.java&#10;HashSe&#9;PSI&#9;JAVA://java.util.HashSet&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;lRU&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;LinkedHashM&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;OBserv&#9;PSI&#9;JAVA://java.util.Observable&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java&#10;Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -990,13 +902,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00157" summary="【Java】String Test">
-      <created>1504072413792</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1504072413792</updated>
-    </task>
     <task id="LOCAL-00158" summary="【Java】约瑟夫环">
       <created>1504074593807</created>
       <option name="number" value="00158" />
@@ -1333,7 +1238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508211398193</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="【Java】Test53_MaximumSubarray">
+      <created>1508228716849</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1508228716849</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1357,7 +1269,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236607" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20647322" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20647322" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1396,18 +1308,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3482143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3482143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32700893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20647322" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20647322" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26495728" sideWeight="0.49455675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2596154" sideWeight="0.49455675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2553305" sideWeight="0.5054432" order="6" side_tool="true" content_ui="tabs" />
@@ -1437,7 +1349,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="【Java】Test669_Trim_a_Binary_Search_Tree" />
     <MESSAGE value="【Java】Test637Average" />
     <MESSAGE value="【Java】Test104_MaximumDepthofBinaryTree" />
     <MESSAGE value="【Java】Test226_Invert_Binary_Tree" />
@@ -1462,7 +1373,8 @@
     <MESSAGE value="【Java】 Majority Element" />
     <MESSAGE value="【Java】Contains Duplicate" />
     <MESSAGE value="【Java】Missing Number" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Missing Number" />
+    <MESSAGE value="【Java】Test53_MaximumSubarray" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test53_MaximumSubarray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2095,20 +2007,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/AbstractSequentialList.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/AbstractList.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Collection.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test501.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test257.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -2487,6 +2385,51 @@
         <state relative-caret-position="425">
           <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="217" column="12" lean-forward="false" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="217" column="19" lean-forward="false" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
+          <folding>
+            <element signature="e#8033#8034#0" expanded="true" />
+            <element signature="e#8081#8082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="1259" column="25" lean-forward="false" selection-start-line="1259" selection-start-column="25" selection-end-line="1259" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="1064" column="36" lean-forward="true" selection-start-line="1064" selection-start-column="36" selection-end-line="1064" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test219.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
