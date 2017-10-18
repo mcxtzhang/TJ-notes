@@ -126,7 +126,7 @@ public class Main {
         System.out.println(sb.deleteCharAt(sb.length()-1));
         System.out.println(sb.deleteCharAt(sb.length()-1));*/
 
-        int i = sb.lastIndexOf(String.valueOf(100));
+/*        int i = sb.lastIndexOf(String.valueOf(100));
         System.out.println(i);
         System.out.println(sb.delete(i,sb.length()));
 
@@ -136,7 +136,22 @@ public class Main {
 
         i = sb.lastIndexOf(String.valueOf(1));
         System.out.println(i);
-        System.out.println(sb.delete(i,sb.length()));
+        System.out.println(sb.delete(i,sb.length()));*/
+
+
+        System.out.println(1%5);
+        System.out.println(5%5);
+        System.out.println((-1)%5);
+
+        int a = 1;
+        int b = 1;
+
+        a = a^b;
+        b = b ^a;
+        a =a^b;
+        System.out.println(a);
+        System.out.println(b);
+
     }
 
     public static void change(String string, char[] chars) {
