@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test118.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test119.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,9 +44,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,7 +54,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3625">
               <caret line="149" column="15" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,15 +81,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test118.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test118.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test118.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="500">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#544#545#0" expanded="true" />
                 <element signature="e#582#583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test119.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test119.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+              <folding>
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="163" column="24" lean-forward="true" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+              <folding>
+                <element signature="e#6320#6321#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/util/Arrays.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-186">
+              <caret line="2080" column="8" lean-forward="false" selection-start-line="2080" selection-start-column="8" selection-end-line="2080" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#69794#0" expanded="true" />
+                <element signature="e#45583#45584#0" expanded="true" />
+                <element signature="e#45632#45633#0" expanded="true" />
+                <element signature="e#66840#66841#0" expanded="true" />
+                <element signature="e#66911#66912#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,8 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test61_Rotate_List.java" />
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test147/Test147_Insertion_Sort_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test147_Insertion_Sort_List.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test617_Merge_Two_Binary_Trees.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test669_Trim_a_Binary_Search_Tree.java" />
@@ -205,6 +258,8 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test189.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test287.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test118.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test006.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test119.java" />
       </list>
     </option>
   </component>
@@ -262,6 +317,76 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TJ-notes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TJ-notes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TJ-notes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -396,7 +521,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="ThreadPoolExe&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Prio&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;HashMap&#9;PSI&#9;JAVA://com.mcxtzhang.collection.HashMapTest&#10;Observer&#9;PSI&#9;JAVA://java.util.Observer&#10;Vola&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/com/mcxtzhang/chapter21/Volatile.java&#10;LinkedLI&#9;PSI&#9;JAVA://com.mcxtzhang.collection.LinkedListTest&#10;LinkedList&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.ReverseLinkedList3#reverseLinkedList&#10;Linkedl&#9;PSI&#9;JAVA://com.mcxtzhang.LinkedList&#10;Integer&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.leetcode.ReverseInteger&#10;BLockingQu&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;Concur&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/Stack.class&#10;Deque&#9;PSI&#9;JAVA://java.util.Deque&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;Link&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;LinkedHashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedHashMap.java&#10;hashTabl&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Hashtable.java&#10;HashSe&#9;PSI&#9;JAVA://java.util.HashSet&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;lRU&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;LinkedHashM&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;OBserv&#9;PSI&#9;JAVA://java.util.Observable&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java&#10;Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream" />
+    <property name="SearchEverywhereHistoryKey" value="Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/util/Arrays.class&#10;ThreadPoolExe&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Prio&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;HashMap&#9;PSI&#9;JAVA://com.mcxtzhang.collection.HashMapTest&#10;Observer&#9;PSI&#9;JAVA://java.util.Observer&#10;Vola&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/com/mcxtzhang/chapter21/Volatile.java&#10;LinkedLI&#9;PSI&#9;JAVA://com.mcxtzhang.collection.LinkedListTest&#10;LinkedList&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.ReverseLinkedList3#reverseLinkedList&#10;Linkedl&#9;PSI&#9;JAVA://com.mcxtzhang.LinkedList&#10;Integer&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.leetcode.ReverseInteger&#10;BLockingQu&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;Concur&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/Stack.class&#10;Deque&#9;PSI&#9;JAVA://java.util.Deque&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;Link&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;LinkedHashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedHashMap.java&#10;hashTabl&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Hashtable.java&#10;HashSe&#9;PSI&#9;JAVA://java.util.HashSet&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;lRU&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;LinkedHashM&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;OBserv&#9;PSI&#9;JAVA://java.util.Observable&#10;Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -754,13 +879,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00160" summary="【Java】给定一个字符串，求第一个不重复的字符 abbcad -&gt; c">
-      <created>1504075888073</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1504075888073</updated>
-    </task>
     <task id="LOCAL-00161" summary="【Java】反转链表">
       <created>1504158663066</created>
       <option name="number" value="00161" />
@@ -1097,7 +1215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508297031257</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="【Java】Test118.Pascal's Triangle">
+      <created>1508553635751</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1508553635751</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1128,7 +1253,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26524064" sideWeight="0.49455675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26524064" sideWeight="0.49455675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1201,7 +1326,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="【Java】Test226_Invert_Binary_Tree" />
     <MESSAGE value="【Java】Test538. Convert BST to Greater Tree" />
     <MESSAGE value="【Java】 快速排序" />
     <MESSAGE value="【Java】 Test671" />
@@ -1226,7 +1350,8 @@
     <MESSAGE value="【Java】Test53_MaximumSubarray" />
     <MESSAGE value="【Java】Test219. Contains Duplicate II" />
     <MESSAGE value="【Java】Test189.Rotate Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test189.Rotate Array" />
+    <MESSAGE value="【Java】Test118.Pascal's Triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test118.Pascal's Triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1859,34 +1984,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/traditional/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/Volatile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/CustomThreadFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/example3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -2082,9 +2179,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2093,7 +2188,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3625">
           <caret line="149" column="15" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2115,12 +2212,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test118.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="500">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="163" column="24" lean-forward="true" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+          <folding>
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/util/Arrays.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="2080" column="8" lean-forward="false" selection-start-line="2080" selection-start-column="8" selection-end-line="2080" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#69794#0" expanded="true" />
+            <element signature="e#45583#45584#0" expanded="true" />
+            <element signature="e#45632#45633#0" expanded="true" />
+            <element signature="e#66840#66841#0" expanded="true" />
+            <element signature="e#66911#66912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test119.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
           </folding>
         </state>
       </provider>
