@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446ffa5-d5b1-4523-8f72-880fe85e0cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test78_Subsets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test153.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,78 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Test119.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test119.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReplaceFieldTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/reflect/ReplaceFieldTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/interview/StringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSortTst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/QuickSortTst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/BinarySearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MopPrimeNumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/MopPrimeNumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrimeNumberTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/impotant/PrimeNumberTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test88.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test88.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,14 +49,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test78_Subsets.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test78_Subsets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test78_Subsets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state relative-caret-position="383">
+              <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test203_RemoveLinkedListElements.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test203_RemoveLinkedListElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test153.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test153.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#90987#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1675">
+              <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="617" column="29" lean-forward="false" selection-start-line="617" selection-start-column="29" selection-end-line="617" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractSequentialList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractSequentialList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="68" column="22" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test637Average.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test104_MaximumDepthofBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/Test226_Invert_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/tree/TreeNode.java" />
@@ -243,6 +255,7 @@
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/impotant/PrimeNumberTest.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test88.java" />
         <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test78_Subsets.java" />
+        <option value="$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test153.java" />
       </list>
     </option>
   </component>
@@ -558,6 +571,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ListNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TJ-notes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TJ-notes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcxtzhang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -574,7 +617,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/util/Arrays.class&#10;ThreadPoolExe&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Prio&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;HashMap&#9;PSI&#9;JAVA://com.mcxtzhang.collection.HashMapTest&#10;Observer&#9;PSI&#9;JAVA://java.util.Observer&#10;Vola&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/com/mcxtzhang/chapter21/Volatile.java&#10;LinkedLI&#9;PSI&#9;JAVA://com.mcxtzhang.collection.LinkedListTest&#10;LinkedList&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.ReverseLinkedList3#reverseLinkedList&#10;Linkedl&#9;PSI&#9;JAVA://com.mcxtzhang.LinkedList&#10;Integer&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.leetcode.ReverseInteger&#10;BLockingQu&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;Concur&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/Stack.class&#10;Deque&#9;PSI&#9;JAVA://java.util.Deque&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;Link&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;LinkedHashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedHashMap.java&#10;hashTabl&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Hashtable.java&#10;HashSe&#9;PSI&#9;JAVA://java.util.HashSet&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;lRU&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;LinkedHashM&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;OBserv&#9;PSI&#9;JAVA://java.util.Observable&#10;Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random&#10;FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream" />
+    <property name="SearchEverywhereHistoryKey" value="HashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java&#10;LinkedList&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test203_RemoveLinkedListElements.java&#10;linkedlist&#9;PSI&#9;JAVA://com.mcxtzhang.LinkedList&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/util/Arrays.class&#10;ThreadPoolExe&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Prio&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;Observer&#9;PSI&#9;JAVA://java.util.Observer&#10;Vola&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/com/mcxtzhang/chapter21/Volatile.java&#10;LinkedLI&#9;PSI&#9;JAVA://com.mcxtzhang.collection.LinkedListTest&#10;Linkedl&#9;PSI&#9;JAVA://com.mcxtzhang.LinkedList&#10;Integer&#9;PSI&#9;JAVA://com.mcxtzhang.algorithm.leetcode.ReverseInteger&#10;BLockingQu&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;Concur&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/Stack.class&#10;Deque&#9;PSI&#9;JAVA://java.util.Deque&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Array&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;Link&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;LinkedHashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedHashMap.java&#10;hashTabl&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Hashtable.java&#10;HashSe&#9;PSI&#9;JAVA://java.util.HashSet&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java&#10;lRU&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;LinkedHashM&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;LinkList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java&#10;OBserv&#9;PSI&#9;JAVA://java.util.Observable&#10;Class&#9;ACTION&#9;GotoClass&#10;Class.&#9;FILE&#9;file://E:/nicecode/TJ-notes/src/OutClass.java&#10;INteger&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Integ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Integer.java&#10;Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Date.java&#10;THread&#9;PSI&#9;JAVA://java.lang.Thread&#10;StringBUil&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;LinkedhashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Collections.java&#10;Abstra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractMap.java&#10;BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Point&#9;PSI&#9;JAVA://java.awt.Point&#10;RAndom&#9;PSI&#9;JAVA://com.mcxtzhang.Chapter3.Random" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -932,13 +975,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00162" summary="【Java】203. Remove Linked List Elements">
-      <created>1504344624512</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1504344624512</updated>
-    </task>
     <task id="LOCAL-00163" summary="【Java】Intersection of Two Linked Lists">
       <created>1504345284376</created>
       <option name="number" value="00163" />
@@ -1275,7 +1311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508554992150</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="【Java】Test78.Subsets">
+      <created>1508750020439</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1508750020440</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1379,7 +1422,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="【Java】 快速排序" />
     <MESSAGE value="【Java】 Test671" />
     <MESSAGE value="【Java】sortedArrayToBST" />
     <MESSAGE value="【Java】测试volatile的可见性.它只有可见性 没有原子性。" />
@@ -1404,7 +1446,8 @@
     <MESSAGE value="【Java】Test189.Rotate Array" />
     <MESSAGE value="【Java】Test118.Pascal's Triangle" />
     <MESSAGE value="【Java】Test119. Pascal's Triangle II" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test119. Pascal's Triangle II" />
+    <MESSAGE value="【Java】Test78.Subsets" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】Test78.Subsets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2037,49 +2080,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/offer/Test34.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Thread.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/chapter21/TestCyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test485.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test448.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="32" column="65" lean-forward="false" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test283.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test167.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test169.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -2098,7 +2098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Map.java" />
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test217.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2196,7 +2195,7 @@
         <state relative-caret-position="0">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2281,11 +2280,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test78_Subsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="383">
+          <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#90987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="68" column="22" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="617" column="29" lean-forward="false" selection-start-line="617" selection-start-column="29" selection-end-line="617" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/ListNode/Test203_RemoveLinkedListElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcxtzhang/algorithm/leetcode/array/Test153.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
