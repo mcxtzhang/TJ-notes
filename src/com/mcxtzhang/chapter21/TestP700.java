@@ -1,6 +1,5 @@
 package com.mcxtzhang.chapter21;
 
-import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -27,16 +26,22 @@ class BlockedMutex {
     }
 
     public void f() {
-/*        try {
+        try {
             System.out.println("second lock.lockInterruptibly()");
             lock.lockInterruptibly();
             System.out.println("acquire lock in f()");
         } catch (InterruptedException e) {
             System.out.println("Interrupt from  lock.lockInterruptibly() in f(),");
-        }*/
+        }
         System.out.println("second lock.lock() in f()");
-        lock.lock();
-        System.out.println("end f()");
+/*        try {
+            lock.lock();
+        }finally {
+            lock.unlock();
+            System.out.println("finally");
+        }
+
+        System.out.println("end f()");*/
     }
 }
 
@@ -68,7 +73,7 @@ public class TestP700 {
         System.out.println("Begin interrupt t.interrupt()");
         thread.interrupt();
 
-        CyclicBarrier cyclicBarrier = new CyclicBarrier(3,new Blocked2());
+        //CyclicBarrier cyclicBarrier = new CyclicBarrier(3,new Blocked2());
         //cyclicBarrier.
     }
 }
