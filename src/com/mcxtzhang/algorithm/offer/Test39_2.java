@@ -39,6 +39,7 @@ public class Test39_2 {
 
         System.out.println(treeDepth(treeNode1));
         System.out.println(isAvl(treeNode1));
+        System.out.println(isAvl2(treeNode1, new Depth()));
 
         treeNode1 = new TreeNode();
         treeNode1.value = 1;
@@ -67,6 +68,7 @@ public class Test39_2 {
 
         System.out.println(treeDepth(treeNode1));
         System.out.println(isAvl(treeNode1));
+        System.out.println(isAvl2(treeNode1, new Depth()));
 
     }
 
@@ -91,6 +93,32 @@ public class Test39_2 {
     public static int treeDepth(TreeNode root) {
         if (root == null) return 0;
         return 1 + Math.max(treeDepth(root.left), treeDepth(root.right));
+    }
+
+
+    //20171031 add more efficiency
+    public static boolean isAvl2(TreeNode root, Depth depth) {
+        //后序遍历 不会重复遍历节点
+        if (root == null) {
+            depth.value = 0;
+            return true;
+        }
+        //int 类型无法传递副作用给函数调用者，所以用一个Class来holder一下
+        Depth leftDepth = new Depth();
+        Depth rightDepth = new Depth();
+        //任意一个不是AVL false
+        if (!isAvl2(root.left, leftDepth) || !isAvl2(root.right, rightDepth)) return false;
+        //计算高度差值
+        int abs = Math.abs(rightDepth.value - leftDepth.value);
+        depth.value = Math.max(rightDepth.value, leftDepth.value) + 1;
+        if (abs <= 1) return true;
+        else return false;
+
+
+    }
+
+    private static class Depth {
+        int value;
     }
 
 }
