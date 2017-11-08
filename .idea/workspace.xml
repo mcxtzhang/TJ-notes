@@ -759,13 +759,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486134538352</updated>
     </task>
-    <task id="LOCAL-00178" summary="【Java】Test226_Invert_Binary_Tree">
-      <created>1505133263878</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1505133263878</updated>
-    </task>
     <task id="LOCAL-00179" summary="【Java】Test538. Convert BST to Greater Tree">
       <created>1505227488352</created>
       <option name="number" value="00179" />
@@ -1102,7 +1095,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510041494552</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="【Java】643. Maximum Average Subarray I">
+      <created>1510113143550</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1510113143551</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1206,7 +1206,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="【Java】 Two Sum II - Input array is sorted" />
     <MESSAGE value="【Java】 Majority Element" />
     <MESSAGE value="【Java】Contains Duplicate" />
     <MESSAGE value="【Java】Missing Number" />
@@ -1231,7 +1230,8 @@
     <MESSAGE value="【Java】快速排序 和 二分查找" />
     <MESSAGE value="【Java】717. 1-bit and 2-bit Characters" />
     <MESSAGE value="【Java】 674. Longest Continuous Increasing Subsequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Java】 674. Longest Continuous Increasing Subsequence" />
+    <MESSAGE value="【Java】643. Maximum Average Subarray I" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Java】643. Maximum Average Subarray I" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
