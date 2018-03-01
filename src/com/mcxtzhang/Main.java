@@ -121,7 +121,7 @@ public class Main {
                 .append("->");
 
         //only del one char
-        System.out.println(sb.delete(sb.length()-2,sb.length()-1));
+        System.out.println(sb.delete(sb.length() - 2, sb.length() - 1));
        /* System.out.println(sb.deleteCharAt(sb.length()-1));
         System.out.println(sb.deleteCharAt(sb.length()-1));
         System.out.println(sb.deleteCharAt(sb.length()-1));*/
@@ -139,23 +139,39 @@ public class Main {
         System.out.println(sb.delete(i,sb.length()));*/
 
 
-        System.out.println(1%5);
-        System.out.println(5%5);
-        System.out.println((-1)%5);
+        System.out.println(1 % 5);
+        System.out.println(5 % 5);
+        System.out.println((-1) % 5);
 
         int a = 1;
         int b = 1;
 
-        a = a^b;
-        b = b ^a;
-        a =a^b;
+        a = a ^ b;
+        b = b ^ a;
+        a = a ^ b;
         System.out.println(a);
         System.out.println(b);
 
+
+        System.out.println("保留小数点后两位");
+        System.out.println(formatFps(12.23456));
+
+        float price = 89.89f;
+        int itemNum = 3;
+        float totalPrice = price * itemNum;
+        System.out.println(totalPrice);
+        float round = Math.round(totalPrice * 100);
+        System.out.println(round);
+        float num = (float) (round / 100);//如果要求精确4位就*10000然后/10000
+        System.out.println(num);
     }
 
     public static void change(String string, char[] chars) {
         string = "changed";
         chars[0] = 'c';
+    }
+
+    public static float formatFps(double originFps) {
+        return ((float) Math.round(originFps * 100) / 100);
     }
 }
