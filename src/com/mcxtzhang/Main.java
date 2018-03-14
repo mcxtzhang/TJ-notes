@@ -164,6 +164,18 @@ public class Main {
         System.out.println(round);
         float num = (float) (round / 100);//如果要求精确4位就*10000然后/10000
         System.out.println(num);
+
+
+
+
+
+        String hint = "识图中...";
+        String hint2 = hint.substring(0,hint.length()-1);
+        String hint3 = hint.substring(0,hint.length()-2);
+
+        System.out.println(hint);
+        System.out.println(hint2);
+        System.out.println(hint3);
     }
 
     public static void change(String string, char[] chars) {
