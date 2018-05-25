@@ -1,8 +1,10 @@
 package com.mcxtzhang;
 
 import com.mcxtzhang.algorithm.leetcode.Test23_MergeKSortedList.ListNode;
+import com.mcxtzhang.chapter8.ExtendInitOrderTest;
 
 import java.math.BigDecimal;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -153,9 +155,6 @@ public class Main {
         System.out.println(b);
 
 
-        System.out.println("保留小数点后两位");
-        System.out.println(formatFps(12.23456));
-
         float price = 89.89f;
         int itemNum = 3;
         float totalPrice = price * itemNum;
@@ -166,16 +165,42 @@ public class Main {
         System.out.println(num);
 
 
-
-
-
         String hint = "识图中...";
-        String hint2 = hint.substring(0,hint.length()-1);
-        String hint3 = hint.substring(0,hint.length()-2);
+        String hint2 = hint.substring(0, hint.length() - 1);
+        String hint3 = hint.substring(0, hint.length() - 2);
 
         System.out.println(hint);
         System.out.println(hint2);
         System.out.println(hint3);
+
+
+        System.out.println(System.currentTimeMillis());
+        try {
+            String a5 = null;
+            System.out.println(System.currentTimeMillis());
+            a5.toString();
+        } catch (Exception e) {
+            System.out.println(System.currentTimeMillis());
+            e.printStackTrace();
+        }
+        System.out.println(System.currentTimeMillis());
+
+
+        System.out.println(Math.random() * 1000);
+
+        System.out.println(ExtendInitOrderTest.class.getName());
+        System.out.println(ExtendInitOrderTest.class.getCanonicalName());
+        System.out.println(ExtendInitOrderTest.class.getSimpleName());
+        System.out.println(ExtendInitOrderTest.class.getPackage());
+
+
+        System.out.println("保留小数点后两位");
+        System.out.println(formatFps(12.23456));
+        System.out.println(formatFps(0.23456));
+        System.out.println(m4(12.23456f));
+        System.out.println(m4(0.23456f));
+        System.out.println(formatFloat(12.23456f));
+        System.out.println(formatFloat(0.23456f));
     }
 
     public static void change(String string, char[] chars) {
@@ -185,5 +210,18 @@ public class Main {
 
     public static float formatFps(double originFps) {
         return ((float) Math.round(originFps * 100) / 100);
+    }
+
+
+    public static String m4(float f) {
+        NumberFormat nf = NumberFormat.getNumberInstance();
+        nf.setMaximumFractionDigits(2);
+        return nf.format(f);
+    }
+
+    public static float formatFloat(float origin) {
+        BigDecimal bd = new BigDecimal(origin);
+        bd = bd.setScale(2, BigDecimal.ROUND_HALF_UP);
+        return bd.floatValue();
     }
 }
