@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
@@ -201,6 +202,25 @@ public class Main {
         System.out.println(m4(0.23456f));
         System.out.println(formatFloat(12.23456f));
         System.out.println(formatFloat(0.23456f));
+
+
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                throw new RuntimeException("dddd");
+            }
+        }).start();
+
+
+        while (true){
+            try {
+                TimeUnit.MILLISECONDS.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("a");
+        }
     }
 
     public static void change(String string, char[] chars) {
