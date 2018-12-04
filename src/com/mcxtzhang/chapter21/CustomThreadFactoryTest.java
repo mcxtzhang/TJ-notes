@@ -19,6 +19,7 @@ public class CustomThreadFactoryTest {
         @Override
         public Thread newThread(Runnable r) {
             Thread thread = new Thread(r);
+            thread.setName("zhangxutong" + Math.random());
             thread.setDaemon(true);
             return thread;
         }
@@ -41,8 +42,10 @@ public class CustomThreadFactoryTest {
     }
 
     public static void main(String[] args) {
+        Thread.currentThread().setName("子线程");
+
         //ExecutorService executorService = Executors.newCachedThreadPool(new DaemonThreadFactory());
-        ExecutorService executorService = Executors.newFixedThreadPool(3,new DaemonThreadFactory());
+        ExecutorService executorService = Executors.newFixedThreadPool(3, new DaemonThreadFactory());
         for (int i = 0; i < 10; i++) {
             executorService.execute(new DaemonRunnable());
         }
